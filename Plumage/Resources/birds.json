@@ -1,0 +1,2355 @@
+[
+  {
+    "id": "northern-cardinal",
+    "name": "Northern Cardinal",
+    "scientific": "Cardinalis cardinalis",
+    "family": "Cardinalidae",
+    "familyCommon": "Cardinals & grosbeaks",
+    "order": "Passeriformes",
+    "group": "songbird",
+    "tagline": "A flame of song in the winter hedgerow.",
+    "summary": "The male cardinal is a living ember: crested, crimson and masked in black, he whistles clear, rising phrases from the tops of shrubs all year long. Females wear warm buff with red-tinged wings and sing just as well — often from the nest itself. Cardinals never migrate, so their colour brightens snowy gardens from Canada to Mexico.",
+    "status": "LC",
+    "population": "≈ 120 million",
+    "regions": ["northAmerica", "centralAmerica"],
+    "habitats": ["woodland", "garden", "scrubland", "urban"],
+    "diet": ["seeds", "fruit", "insects"],
+    "dietNote": "Cracks sunflower and weed seeds with its thick, cone-shaped beak; feeds chicks almost entirely on insects.",
+    "migration": "resident",
+    "migrationNote": "Stays on its territory all year, forming loose flocks in winter.",
+    "lengthCm": [21, 23],
+    "wingspanCm": [25, 31],
+    "weightG": [42, 48],
+    "lifespanYears": [3, 15],
+    "speedKmh": 40,
+    "flightless": false,
+    "traits": { "flight": 5, "song": 8, "smarts": 5, "stealth": 3, "social": 5 },
+    "behaviors": [
+      { "icon": "🎶", "title": "Duetting pairs", "detail": "Both sexes sing. A female on the nest may sing to tell her mate when to bring food." },
+      { "icon": "🪞", "title": "Mirror battles", "detail": "In spring, males attack their own reflection in windows and wing mirrors, convinced it is a rival." },
+      { "icon": "🌻", "title": "Courtship feeding", "detail": "The male passes seeds beak-to-beak to the female — it looks remarkably like a kiss." },
+      { "icon": "❄️", "title": "Winter flocks", "detail": "Territorial pairs relax in winter and gather in groups of a dozen or more at food." }
+    ],
+    "call": {
+      "description": "Loud, liquid whistles that slur downward and repeat, plus a sharp metallic 'chip' note.",
+      "mnemonic": "cheer-cheer-cheer · birdie-birdie-birdie",
+      "song": { "style": "whistle", "pitch": 3600, "range": -1700, "notes": 5, "tempo": 3.2, "trill": 0, "harshness": 0.02, "phrases": 2 }
+    },
+    "nest": { "type": "cup", "description": "The female weaves a loose cup of twigs, bark strips, grass and vines, hidden low in a dense shrub or tangle." },
+    "egg": { "shape": "oval", "pattern": "speckled", "base": "#E6E8DA", "marking": "#7B6650", "lengthMm": 25, "widthMm": 18, "clutch": [2, 5], "incubationDays": [11, 13], "description": "Greyish or greenish white, freckled with brown and grey, densest at the blunt end." },
+    "facts": [
+      "It is the state bird of seven US states — more than any other bird.",
+      "The red colour comes from carotenoid pigments in the food it eats.",
+      "It is named after the scarlet robes of Catholic cardinals."
+    ],
+    "appearance": {
+      "body": "#C0392B", "belly": "#D9534F", "beak": "#E8743B",
+      "crest": "pointed", "crestSize": 1.1, "tailStyle": "long", "tailLength": 0.75,
+      "markings": [{ "kind": "mask", "color": "#1A1A1A" }]
+    }
+  },
+  {
+    "id": "blue-jay",
+    "name": "Blue Jay",
+    "scientific": "Cyanocitta cristata",
+    "family": "Corvidae",
+    "familyCommon": "Crows & jays",
+    "order": "Passeriformes",
+    "group": "songbird",
+    "tagline": "A loud, clever acorn-planter in sky-blue armour.",
+    "summary": "Bold, noisy and brilliant, the Blue Jay is a crow in a costume. It mimics hawks, hoards thousands of acorns, and patrols oak forests and suburbs in boisterous family groups. Its blue is pure optics — there is no blue pigment in the feather at all.",
+    "status": "LC",
+    "population": "≈ 13 million",
+    "regions": ["northAmerica"],
+    "habitats": ["forest", "woodland", "garden", "urban"],
+    "diet": ["nuts", "seeds", "insects", "fruit"],
+    "dietNote": "Acorns, beech nuts and seeds, plus insects, berries and the occasional egg.",
+    "migration": "partial",
+    "migrationNote": "Some jays migrate in loose daytime flocks along lakeshores and coasts; others stay put. Why individuals choose differs from year to year.",
+    "lengthCm": [25, 30],
+    "wingspanCm": [34, 43],
+    "weightG": [70, 100],
+    "lifespanYears": [7, 26],
+    "speedKmh": 40,
+    "flightless": false,
+    "traits": { "flight": 5, "song": 6, "smarts": 9, "stealth": 3, "social": 8 },
+    "behaviors": [
+      { "icon": "🦅", "title": "Hawk impressions", "detail": "Imitates Red-shouldered and Red-tailed Hawk screams — possibly to warn others or to clear a feeder." },
+      { "icon": "🌰", "title": "Oak planter", "detail": "Buries thousands of acorns each autumn. The forgotten ones sprout, helping oaks spread." },
+      { "icon": "🐜", "title": "Anting", "detail": "Rubs ants through its feathers; their formic acid may deter parasites." },
+      { "icon": "💞", "title": "Lifelong pairs", "detail": "Pairs often stay together for life and raise young as a team." }
+    ],
+    "call": {
+      "description": "A piercing 'jay! jay!', squeaky gate sounds, liquid 'queedle' notes and uncanny hawk imitations.",
+      "mnemonic": "JAY! · JAY! · queedle-queedle",
+      "song": { "style": "squawk", "pitch": 2300, "range": 400, "notes": 3, "tempo": 3, "trill": 0, "harshness": 0.55, "phrases": 2 }
+    },
+    "nest": { "type": "cup", "description": "A sturdy cup of twigs cemented with mud and lined with rootlets, set in a tree fork 3–10 m up." },
+    "egg": { "shape": "oval", "pattern": "spotted", "base": "#B9C7A8", "marking": "#6B4F33", "lengthMm": 28, "widthMm": 20, "clutch": [2, 7], "incubationDays": [16, 18], "description": "Bluish, greenish or buff with bold brown spots." },
+    "facts": [
+      "Crush a blue feather and the colour vanishes — it is caused by light scattering, not pigment.",
+      "A single jay may cache 3,000–5,000 acorns in one autumn.",
+      "The crest rises when the bird is excited or aggressive and flattens when it is calm."
+    ],
+    "appearance": {
+      "body": "#4A7FC1", "belly": "#EEF1F4", "wing": "#3B6FB6", "wingTip": "#1F3F78", "tail": "#3B6FB6",
+      "beak": "#2B2B2B", "legs": "#333333",
+      "crest": "pointed", "wingPattern": "bars", "wingPatternColor": "#FFFFFF",
+      "tailStyle": "long", "tailLength": 0.8, "beakLength": 1.05,
+      "markings": [{ "kind": "collar", "color": "#151515" }, { "kind": "cheek", "color": "#EEF1F4" }]
+    }
+  },
+  {
+    "id": "american-robin",
+    "name": "American Robin",
+    "scientific": "Turdus migratorius",
+    "family": "Turdidae",
+    "familyCommon": "Thrushes",
+    "order": "Passeriformes",
+    "group": "songbird",
+    "tagline": "The orange-breasted herald of spring lawns.",
+    "summary": "A big, confident thrush that runs across lawns, stops, cocks its head and yanks out an earthworm. Its caroling song is often the first in the dawn chorus, and its unmarked eggs gave the world a colour of their own: robin's-egg blue.",
+    "status": "LC",
+    "population": "≈ 370 million",
+    "regions": ["northAmerica", "centralAmerica"],
+    "habitats": ["garden", "woodland", "grassland", "urban", "forest"],
+    "diet": ["invertebrates", "insects", "fruit"],
+    "dietNote": "Earthworms and insects in the morning; berries and fruit become more important later in the day and in winter.",
+    "migration": "partial",
+    "migrationNote": "Northern robins move south, but many winter surprisingly far north if fruit is plentiful.",
+    "lengthCm": [20, 28],
+    "wingspanCm": [31, 41],
+    "weightG": [72, 94],
+    "lifespanYears": [2, 14],
+    "speedKmh": 50,
+    "flightless": false,
+    "traits": { "flight": 6, "song": 8, "smarts": 5, "stealth": 3, "social": 6 },
+    "behaviors": [
+      { "icon": "👀", "title": "Run, stop, stare", "detail": "Hunts by sight: a quick dash, a pause, a tilted head — then a lunge for a worm." },
+      { "icon": "🌅", "title": "Dawn chorus leader", "detail": "One of the very first birds to sing before sunrise." },
+      { "icon": "🍒", "title": "Shifting menu", "detail": "Worm-hunter by morning, fruit-eater by afternoon and in winter." },
+      { "icon": "🏠", "title": "Many broods", "detail": "A pair can raise up to three broods in a single season." }
+    ],
+    "call": {
+      "description": "A rich, rising and falling carol of short whistled phrases, plus 'tut-tut' alarm notes.",
+      "mnemonic": "cheerily · cheer-up · cheer-up · cheerily",
+      "song": { "style": "warble", "pitch": 2400, "range": 900, "notes": 7, "tempo": 3.2, "trill": 0, "harshness": 0.03, "phrases": 2 }
+    },
+    "nest": { "type": "cup", "description": "A deep cup with a mud wall, shaped by the female pressing it with her breast, then lined with fine grass." },
+    "egg": { "shape": "oval", "pattern": "plain", "base": "#7FC3D6", "marking": "#7FC3D6", "lengthMm": 28, "widthMm": 21, "clutch": [3, 5], "incubationDays": [12, 14], "description": "Unmarked, luminous sky blue — the original 'robin's-egg blue'." },
+    "facts": [
+      "It isn't closely related to the European Robin; colonists named it after the orange-breasted bird back home.",
+      "Robins have been seen staggering after eating fermented berries.",
+      "The blue of the egg comes from biliverdin, a pigment related to bile."
+    ],
+    "appearance": {
+      "body": "#5B5550", "belly": "#D9682B", "head": "#2E2A28", "wing": "#5B5550", "wingTip": "#3B3632", "tail": "#3B3632",
+      "beak": "#E5B322", "beakShape": "dagger", "beakLength": 0.55,
+      "tailStyle": "long", "tailLength": 1.2,
+      "markings": [{ "kind": "eyeRing", "color": "#F2F2F2" }]
+    }
+  },
+  {
+    "id": "european-robin",
+    "name": "European Robin",
+    "scientific": "Erithacus rubecula",
+    "family": "Muscicapidae",
+    "familyCommon": "Old World flycatchers",
+    "order": "Passeriformes",
+    "group": "songbird",
+    "tagline": "A tiny gardener's companion with a fiery heart.",
+    "summary": "Round, bright-eyed and bold, the European Robin hops close to anyone turning soil, waiting for a worm. Behind the charm is a fierce fighter: both sexes defend territories, and their wistful song carries through winter evenings — even under streetlights at night.",
+    "status": "LC",
+    "regions": ["europe", "africa", "asia"],
+    "habitats": ["woodland", "garden", "forest", "urban"],
+    "diet": ["insects", "invertebrates", "fruit", "seeds"],
+    "dietNote": "Beetles, spiders and worms, with berries and seeds in colder months.",
+    "migration": "partial",
+    "migrationNote": "Scandinavian and Russian robins migrate south and west; most British robins stay put.",
+    "lengthCm": [12.5, 14],
+    "wingspanCm": [20, 22],
+    "weightG": [16, 22],
+    "lifespanYears": [1, 19],
+    "flightless": false,
+    "traits": { "flight": 5, "song": 9, "smarts": 6, "stealth": 4, "social": 3 },
+    "behaviors": [
+      { "icon": "🌙", "title": "Night singer", "detail": "Sings after dark near streetlights, and in cities may shift song to the quieter night." },
+      { "icon": "🧑‍🌾", "title": "Gardener's shadow", "detail": "Follows people digging, just as wild robins once followed rooting boar." },
+      { "icon": "⚔️", "title": "Fierce defender", "detail": "Both sexes hold winter territories; fights between rivals can be serious." },
+      { "icon": "🧭", "title": "Quantum compass", "detail": "Senses Earth's magnetic field through light-sensitive proteins in its eyes." }
+    ],
+    "call": {
+      "description": "Liquid, wistful warbles in varied phrases; a sharp 'tic' when alarmed.",
+      "mnemonic": "a silvery trickle of falling notes",
+      "song": { "style": "warble", "pitch": 4200, "range": 2000, "notes": 10, "tempo": 6, "trill": 8, "harshness": 0.03, "phrases": 2 }
+    },
+    "nest": { "type": "cup", "description": "A cup of moss and leaves in banks, hollows and ivy — and famously in kettles, flowerpots and coat pockets." },
+    "egg": { "shape": "oval", "pattern": "speckled", "base": "#F1E9DB", "marking": "#B0603A", "lengthMm": 20, "widthMm": 15, "clutch": [4, 6], "incubationDays": [13, 14], "description": "Creamy white, freckled with reddish-buff speckles." },
+    "facts": [
+      "It was voted the UK's national bird in 2015.",
+      "Victorian postmen wore red coats and were nicknamed 'robins' — hence robins on Christmas cards.",
+      "The species is a classic model for studying how birds sense magnetism."
+    ],
+    "appearance": {
+      "body": "#7D6B4F", "belly": "#E2652C", "head": "#7D6B4F", "wing": "#76664C", "tail": "#6E5E45",
+      "beak": "#2E2A26", "beakShape": "dagger", "beakLength": 0.45,
+      "plumpness": 1.12, "bodyLength": 0.9, "headSize": 1.05, "eyeSize": 1.15, "legLength": 0.7, "legs": "#A88B6A",
+      "markings": [{ "kind": "disc", "color": "#E2652C" }, { "kind": "bib", "color": "#E2652C" }]
+    }
+  },
+  {
+    "id": "black-capped-chickadee",
+    "name": "Black-capped Chickadee",
+    "scientific": "Poecile atricapillus",
+    "family": "Paridae",
+    "familyCommon": "Tits & chickadees",
+    "order": "Passeriformes",
+    "group": "songbird",
+    "tagline": "A pocket-sized genius with a winter memory.",
+    "summary": "Weighing about as much as two coins, the chickadee survives brutal northern winters by caching thousands of seeds — and remembering where it put them. Its namesake call is a code: the more 'dee' notes, the more dangerous the predator.",
+    "status": "LC",
+    "population": "≈ 40 million",
+    "regions": ["northAmerica"],
+    "habitats": ["forest", "woodland", "garden"],
+    "diet": ["insects", "seeds", "invertebrates", "fruit"],
+    "dietNote": "Insects and spiders in summer; seeds, berries and stored food in winter.",
+    "migration": "resident",
+    "migrationNote": "Stays year-round, leading mixed winter flocks.",
+    "lengthCm": [12, 15],
+    "wingspanCm": [16, 21],
+    "weightG": [9, 14],
+    "lifespanYears": [2, 12],
+    "flightless": false,
+    "traits": { "flight": 5, "song": 7, "smarts": 9, "stealth": 4, "social": 8 },
+    "behaviors": [
+      { "icon": "🔔", "title": "Coded alarms", "detail": "Adds more 'dee' notes to warn of more dangerous predators like small owls." },
+      { "icon": "🧠", "title": "Memory upgrade", "detail": "Its memory-centre neurons are renewed each autumn to track thousands of caches." },
+      { "icon": "🌡️", "title": "Night torpor", "detail": "Lowers body temperature by around 10 °C on cold nights to save energy." },
+      { "icon": "🐦", "title": "Flock leader", "detail": "Nuthatches, woodpeckers and kinglets follow chickadee flocks in winter." }
+    ],
+    "call": {
+      "description": "A clear two-note whistle 'fee-bee' and the buzzy, scolding 'chick-a-dee-dee-dee'.",
+      "mnemonic": "fee-bee · chick-a-dee-dee-dee",
+      "song": { "style": "whistle", "pitch": 3900, "range": -500, "notes": 2, "tempo": 2, "trill": 0, "harshness": 0.01, "phrases": 3 }
+    },
+    "nest": { "type": "cavity", "description": "Excavates soft rotten wood or uses a nest box, lining it with moss and animal fur." },
+    "egg": { "shape": "oval", "pattern": "speckled", "base": "#F7F3EE", "marking": "#A0522D", "lengthMm": 15, "widthMm": 12, "clutch": [6, 8], "incubationDays": [12, 13], "description": "White with fine reddish-brown dots." },
+    "facts": [
+      "It can hide hundreds of seeds a day and find them weeks later.",
+      "Flocks have a strict pecking order that persists through winter.",
+      "It is the state bird of Maine and Massachusetts."
+    ],
+    "appearance": {
+      "body": "#8E9296", "belly": "#EFE7D6", "head": "#F4F2EE", "wing": "#7D8287", "tail": "#6E7378",
+      "beak": "#1E1E1E", "beakShape": "conical", "beakLength": 0.55,
+      "plumpness": 1.15, "bodyLength": 0.9, "headSize": 1.15, "legs": "#4A4F55",
+      "wingPattern": "stripes", "wingPatternColor": "#E8E8E8", "tailStyle": "long", "tailLength": 0.9,
+      "markings": [{ "kind": "cap", "color": "#151515" }, { "kind": "bib", "color": "#151515" }]
+    }
+  },
+  {
+    "id": "barn-swallow",
+    "name": "Barn Swallow",
+    "scientific": "Hirundo rustica",
+    "family": "Hirundinidae",
+    "familyCommon": "Swallows & martins",
+    "order": "Passeriformes",
+    "group": "songbird",
+    "tagline": "Summer stitched across the sky in a forked tail.",
+    "summary": "The world's most widespread swallow skims low over fields and ponds, snapping up insects in flight and sipping water on the wing. Its long tail streamers are a badge of quality — females prefer the longest and most symmetrical.",
+    "status": "LC",
+    "population": "≈ 290–490 million",
+    "regions": ["northAmerica", "southAmerica", "europe", "africa", "asia", "oceania"],
+    "habitats": ["grassland", "urban", "wetland", "river"],
+    "diet": ["insects"],
+    "dietNote": "Flies, beetles and moths caught in fast, low aerial chases.",
+    "migration": "longDistance",
+    "migrationNote": "European birds winter in southern Africa — a journey of 10,000 km or more.",
+    "lengthCm": [17, 19],
+    "wingspanCm": [32, 34.5],
+    "weightG": [16, 22],
+    "lifespanYears": [4, 11],
+    "speedKmh": 56,
+    "flightless": false,
+    "traits": { "flight": 9, "song": 6, "smarts": 5, "stealth": 4, "social": 8 },
+    "behaviors": [
+      { "icon": "🪶", "title": "Aerial hunter", "detail": "Catches insects in flight and drinks by skimming the water's surface." },
+      { "icon": "🏚️", "title": "Barn builder", "detail": "Nests almost entirely on human structures: barns, bridges and porches." },
+      { "icon": "💘", "title": "Long streamers win", "detail": "Females choose males with longer, more symmetrical tail streamers." },
+      { "icon": "🤝", "title": "Helper young", "detail": "Juveniles from the first brood sometimes help feed the second." }
+    ],
+    "call": {
+      "description": "A cheerful, rambling twitter laced with grating rattles; a sharp 'vit' in flight.",
+      "mnemonic": "vit-vit · twitter-twitter-zzzrrr",
+      "song": { "style": "warble", "pitch": 4500, "range": 1500, "notes": 14, "tempo": 9, "trill": 30, "harshness": 0.25, "phrases": 1 }
+    },
+    "nest": { "type": "mud", "description": "A cup of up to 1,000+ mud pellets mixed with grass, stuck to a beam or ledge and lined with feathers." },
+    "egg": { "shape": "elliptical", "pattern": "speckled", "base": "#F7F1EC", "marking": "#9B4A2A", "lengthMm": 20, "widthMm": 14, "clutch": [3, 7], "incubationDays": [13, 17], "description": "White, spotted with reddish-brown, lilac and grey." },
+    "facts": [
+      "Aristotle believed swallows hibernated in mud — the idea lasted for 2,000 years.",
+      "It breeds across the Northern Hemisphere and winters on every southern continent.",
+      "Sailors once got swallow tattoos to promise a safe return home."
+    ],
+    "appearance": {
+      "body": "#1F3D7A", "belly": "#F2DCC4", "wing": "#1B2E5C", "wingTip": "#0F1B38", "tail": "#1B2E5C",
+      "beak": "#222222", "beakShape": "tiny", "legs": "#333333",
+      "tailStyle": "forked", "tailLength": 1.6, "wingLength": 1.35, "plumpness": 0.82, "legLength": 0.2,
+      "markings": [{ "kind": "bib", "color": "#A8452A" }]
+    }
+  },
+  {
+    "id": "common-raven",
+    "name": "Common Raven",
+    "scientific": "Corvus corax",
+    "family": "Corvidae",
+    "familyCommon": "Crows & jays",
+    "order": "Passeriformes",
+    "group": "songbird",
+    "tagline": "Thought and memory on wings of glossy night.",
+    "summary": "The largest songbird on Earth is also one of its sharpest minds. Ravens plan ahead, solve puzzles, play in the wind and slide down snowy roofs for fun. Across cultures they are tricksters, messengers and creators — Odin kept two of them.",
+    "status": "LC",
+    "regions": ["northAmerica", "europe", "asia", "africa", "arctic"],
+    "habitats": ["mountains", "forest", "coast", "desert", "tundra", "cliffs", "urban"],
+    "diet": ["carrion", "smallMammals", "insects", "seeds", "fruit", "eggs"],
+    "dietNote": "A true opportunist: carrion, rodents, eggs, grain, berries and human scraps.",
+    "migration": "resident",
+    "migrationNote": "Mostly resident; young non-breeders roam widely in social gangs.",
+    "lengthCm": [54, 67],
+    "wingspanCm": [100, 150],
+    "weightG": [690, 2000],
+    "lifespanYears": [10, 23],
+    "speedKmh": 65,
+    "flightless": false,
+    "traits": { "flight": 8, "song": 4, "smarts": 10, "stealth": 5, "social": 7 },
+    "behaviors": [
+      { "icon": "🧩", "title": "Planners", "detail": "In experiments ravens saved a tool for later, choosing future rewards over instant ones." },
+      { "icon": "🛷", "title": "Playful acrobats", "detail": "Rolls in flight, plays catch with sticks and slides down snowbanks." },
+      { "icon": "🐺", "title": "Wolf partners", "detail": "Follows wolves to their kills and may even lead them to carcasses." },
+      { "icon": "🗣️", "title": "Mimicry", "detail": "Imitates other birds, running water and, in captivity, human words." }
+    ],
+    "call": {
+      "description": "A deep, resonant 'gronk' plus knocks, bell-like notes and dozens of other sounds.",
+      "mnemonic": "GRONK · GRONK · kloo-klok",
+      "song": { "style": "croak", "pitch": 420, "range": -60, "notes": 3, "tempo": 2, "trill": 0, "harshness": 0.6, "phrases": 1 }
+    },
+    "nest": { "type": "platform", "description": "A large basket of sticks on a cliff, tree or pylon, lined with fur, wool and bark." },
+    "egg": { "shape": "oval", "pattern": "blotched", "base": "#8FB7A8", "marking": "#5A4630", "lengthMm": 50, "widthMm": 33, "clutch": [3, 7], "incubationDays": [18, 21], "description": "Blue-green, blotched and streaked with olive and brown." },
+    "facts": [
+      "Odin's ravens, Huginn and Muninn, are 'Thought' and 'Memory' in Old Norse.",
+      "A group of ravens is called an 'unkindness' or a 'conspiracy'.",
+      "Researchers have catalogued more than 30 distinct raven vocalisations."
+    ],
+    "appearance": {
+      "body": "#1A1A22", "belly": "#24242E", "wing": "#1C1C26", "wingTip": "#0E0E14", "tail": "#1A1A22",
+      "beak": "#1A1A1A", "beakShape": "dagger", "beakLength": 1.0, "legs": "#1A1A1A", "eye": "#1A120E",
+      "tailStyle": "pointed", "tailLength": 1.2, "bodyLength": 1.2, "plumpness": 1.05, "headSize": 1.02,
+      "wingPattern": "scallop", "wingPatternColor": "#3A3F58"
+    }
+  },
+  {
+    "id": "superb-lyrebird",
+    "name": "Superb Lyrebird",
+    "scientific": "Menura novaehollandiae",
+    "family": "Menuridae",
+    "familyCommon": "Lyrebirds",
+    "order": "Passeriformes",
+    "group": "songbird",
+    "tagline": "The forest's greatest impersonator.",
+    "summary": "On a cleared mound in the damp forests of south-eastern Australia, the male lyrebird throws his lace-like tail over his head and performs a concert of other voices: kookaburras, whipbirds, rosellas — and, in captivity, camera shutters and car alarms. He is one of the oldest songbird lineages alive.",
+    "status": "LC",
+    "regions": ["oceania"],
+    "habitats": ["rainforest", "forest", "mountains"],
+    "diet": ["invertebrates", "insects"],
+    "dietNote": "Scratches through leaf litter for worms, beetles, spiders and larvae.",
+    "migration": "resident",
+    "migrationNote": "Sedentary, holding the same territory for years.",
+    "lengthCm": [74, 100],
+    "weightG": [900, 1100],
+    "lifespanYears": [13, 30],
+    "flightless": false,
+    "traits": { "flight": 2, "song": 10, "smarts": 7, "stealth": 6, "social": 3 },
+    "behaviors": [
+      { "icon": "🎙️", "title": "Master mimic", "detail": "Up to 70–80% of a male's song can be copied from other species." },
+      { "icon": "💃", "title": "Mound performer", "detail": "Clears a stage, flips his lyre-shaped tail overhead and dances in time with his song." },
+      { "icon": "🍂", "title": "Forest gardener", "detail": "Foraging lyrebirds turn over around 155 tonnes of soil and litter per hectare per year." },
+      { "icon": "🏃", "title": "Runner, not flyer", "detail": "Rarely flies; it runs, hops and glides down slopes." }
+    ],
+    "call": {
+      "description": "A cascade of perfect imitations stitched with its own loud, ringing notes.",
+      "mnemonic": "a whole forest in one throat",
+      "song": { "style": "mimic", "pitch": 2500, "range": 2500, "notes": 16, "tempo": 5, "trill": 0, "harshness": 0.2, "phrases": 1 }
+    },
+    "nest": { "type": "dome", "description": "A bulky dome of sticks, ferns and moss with a side entrance, built on a stump, rock ledge or the ground." },
+    "egg": { "shape": "oval", "pattern": "streaked", "base": "#7D7471", "marking": "#3A2B26", "lengthMm": 63, "widthMm": 43, "clutch": [1, 1], "incubationDays": [42, 50], "description": "A single grey to purplish-brown egg with dark streaks and spots." },
+    "facts": [
+      "It appears on the Australian ten-cent coin.",
+      "Males take around seven years to grow their full ornamental tail.",
+      "Lyrebird songs can carry for more than a kilometre through the forest."
+    ],
+    "appearance": {
+      "body": "#6B5B4E", "belly": "#8A7E74", "wing": "#5E5046", "tail": "#5C4C42", "accent": "#B58E5B",
+      "beak": "#2E2A26", "beakShape": "dagger", "beakLength": 0.6, "legs": "#4A3F38", "legLength": 1.3,
+      "tailStyle": "lyre", "tailLength": 1.0, "tailAngle": -20, "bodyTilt": -15, "perch": "ground"
+    }
+  },
+  {
+    "id": "gouldian-finch",
+    "name": "Gouldian Finch",
+    "scientific": "Chloebia gouldiae",
+    "family": "Estrildidae",
+    "familyCommon": "Waxbills & munias",
+    "order": "Passeriformes",
+    "group": "songbird",
+    "tagline": "A paintbox with wings from Australia's savanna.",
+    "summary": "Purple breast, yellow belly, green back, turquoise collar and a red, black or (rarely) yellow face — the Gouldian Finch looks hand-painted. In the wild it is a seed specialist of tropical northern Australia whose numbers fell sharply with changing fire patterns and grazing.",
+    "status": "NT",
+    "regions": ["oceania"],
+    "habitats": ["savanna", "grassland"],
+    "diet": ["seeds", "insects"],
+    "dietNote": "Almost entirely grass seeds — especially sorghum — with insects in the breeding season.",
+    "migration": "nomadic",
+    "migrationNote": "Moves locally to follow seeding grasses through the dry season.",
+    "lengthCm": [12.5, 14],
+    "weightG": [14, 15],
+    "lifespanYears": [4, 8],
+    "flightless": false,
+    "traits": { "flight": 5, "song": 4, "smarts": 4, "stealth": 3, "social": 9 },
+    "behaviors": [
+      { "icon": "🌈", "title": "Three faces", "detail": "Wild birds have red, black or very rare yellow heads." },
+      { "icon": "💡", "title": "Glowing gape", "detail": "Chicks have shiny blue-white nodules at their mouth corners that guide parents in dark nest hollows." },
+      { "icon": "🧬", "title": "Matching mates", "detail": "Females prefer males with the same head colour; mismatched pairs raise weaker young." },
+      { "icon": "🌾", "title": "Grass-seed specialist", "detail": "Its life is tuned to the seeding calendar of savanna grasses." }
+    ],
+    "call": {
+      "description": "A soft, hissing, clicking song so quiet you must be close to hear it.",
+      "mnemonic": "ssst · tik-tik · ssseee",
+      "song": { "style": "buzz", "pitch": 6000, "range": 600, "notes": 4, "tempo": 4, "trill": 0, "harshness": 0.3, "phrases": 1 }
+    },
+    "nest": { "type": "cavity", "description": "Lays in tree hollows, often in eucalypts, with little or no lining." },
+    "egg": { "shape": "oval", "pattern": "plain", "base": "#FBFAF6", "marking": "#FBFAF6", "lengthMm": 16, "widthMm": 12, "clutch": [4, 8], "incubationDays": [13, 16], "description": "Pure white, as is typical for cavity-nesting finches." },
+    "facts": [
+      "John Gould named it after his wife Elizabeth, a gifted bird illustrator.",
+      "It is also called the Rainbow Finch.",
+      "Altered fire regimes and cattle grazing are major threats in the wild."
+    ],
+    "appearance": {
+      "body": "#3FA34D", "belly": "#F4D03F", "head": "#3FA34D", "wing": "#3A9446", "wingTip": "#2B6E35", "tail": "#1C1C1C",
+      "beak": "#F2C6C2", "beakTip": "#E05A5A", "beakShape": "conical", "beakLength": 0.85,
+      "tailStyle": "pointed", "tailLength": 1.0, "plumpness": 0.95, "bodyLength": 0.92,
+      "markings": [{ "kind": "disc", "color": "#D7263D" }, { "kind": "collar", "color": "#4FC3F7" }, { "kind": "bib", "color": "#8E44AD" }]
+    }
+  },
+  {
+    "id": "satin-bowerbird",
+    "name": "Satin Bowerbird",
+    "scientific": "Ptilonorhynchus violaceus",
+    "family": "Ptilonorhynchidae",
+    "familyCommon": "Bowerbirds",
+    "order": "Passeriformes",
+    "group": "songbird",
+    "tagline": "An artist who decorates his stage in blue.",
+    "summary": "The male Satin Bowerbird builds an avenue of sticks — the bower — and lays out a carpet of blue treasures: feathers, flowers, berries, pen lids and bottle caps. He paints the walls with chewed plant juice, then dances and buzzes for visiting females. The bower is not a nest; it is a gallery.",
+    "status": "LC",
+    "regions": ["oceania"],
+    "habitats": ["rainforest", "forest", "woodland", "garden"],
+    "diet": ["fruit", "insects", "plants"],
+    "dietNote": "Mainly fruit, with leaves and insects; chicks are fed insects.",
+    "migration": "altitudinal",
+    "migrationNote": "Forms flocks in winter and may move to lower, more open country.",
+    "lengthCm": [27, 34],
+    "weightG": [180, 280],
+    "lifespanYears": [8, 20],
+    "flightless": false,
+    "traits": { "flight": 5, "song": 7, "smarts": 9, "stealth": 4, "social": 5 },
+    "behaviors": [
+      { "icon": "💙", "title": "Blue collector", "detail": "Decorates his bower almost exclusively with blue objects, natural or human-made." },
+      { "icon": "🖌️", "title": "Painter", "detail": "Paints bower walls with chewed plant matter, sometimes using a wad of bark as a brush." },
+      { "icon": "🕺", "title": "Buzzing dance", "detail": "Displays with puffed feathers, wing flicks, mechanical buzzes and mimicry." },
+      { "icon": "🦹", "title": "Art thief", "detail": "Rivals steal each other's decorations and wreck each other's bowers." }
+    ],
+    "call": {
+      "description": "A loud, descending 'wee-oo' whistle, plus buzzes, churrs and mimicry at the bower.",
+      "mnemonic": "WEE-oo · WEE-oo",
+      "song": { "style": "whistle", "pitch": 2600, "range": -1200, "notes": 2, "tempo": 1.5, "trill": 0, "harshness": 0.1, "phrases": 2 }
+    },
+    "nest": { "type": "cup", "description": "The female alone builds a shallow saucer of sticks lined with leaves, far from the bower." },
+    "egg": { "shape": "elliptical", "pattern": "streaked", "base": "#E8D9B5", "marking": "#6E4E30", "lengthMm": 43, "widthMm": 29, "clutch": [1, 3], "incubationDays": [21, 24], "description": "Cream to buff, streaked and blotched with brown." },
+    "facts": [
+      "Males need about seven years to grow their glossy blue-black adult plumage.",
+      "Young males look like females — green with scalloped underparts.",
+      "Their eyes are a striking violet-blue."
+    ],
+    "appearance": {
+      "body": "#1D1F4A", "belly": "#262A5E", "head": "#1F2252", "wing": "#1A1C42", "wingTip": "#101230", "tail": "#1A1C42",
+      "beak": "#D8D2A0", "beakShape": "conical", "beakLength": 0.95, "eye": "#6F7CF2", "legs": "#C9C08E",
+      "tailStyle": "long", "tailLength": 1.0, "bodyLength": 1.05, "wingPattern": "scallop", "wingPatternColor": "#3B3F8A"
+    }
+  },
+  {
+    "id": "bald-eagle",
+    "name": "Bald Eagle",
+    "scientific": "Haliaeetus leucocephalus",
+    "family": "Accipitridae",
+    "familyCommon": "Hawks, eagles & kites",
+    "order": "Accipitriformes",
+    "group": "raptor",
+    "tagline": "A white-crowned sovereign of rivers and coasts.",
+    "summary": "A huge sea eagle that snatches fish from the water's surface, steals from ospreys and builds the largest tree nests of any bird. Driven to the edge by pesticides in the 1960s, it has made one of conservation's greatest comebacks.",
+    "status": "LC",
+    "population": "≈ 300,000+",
+    "regions": ["northAmerica"],
+    "habitats": ["coast", "river", "wetland", "forest"],
+    "diet": ["fish", "birds", "smallMammals", "carrion"],
+    "dietNote": "Mostly fish; also waterbirds, small mammals and carrion — and stolen meals.",
+    "migration": "partial",
+    "migrationNote": "Northern birds move south to open water in winter, gathering by the hundreds at salmon runs.",
+    "lengthCm": [70, 102],
+    "wingspanCm": [180, 230],
+    "weightG": [3000, 6300],
+    "lifespanYears": [20, 38],
+    "speedKmh": 120,
+    "flightless": false,
+    "traits": { "flight": 9, "song": 2, "smarts": 6, "stealth": 5, "social": 4 },
+    "behaviors": [
+      { "icon": "🎣", "title": "Fish snatcher", "detail": "Swoops low to grab fish with its talons; it can even 'row' to shore with its wings." },
+      { "icon": "🏴‍☠️", "title": "Pirate", "detail": "Harasses ospreys and other birds until they drop their catch." },
+      { "icon": "🌀", "title": "Cartwheel courtship", "detail": "Pairs lock talons high in the air and tumble toward the ground." },
+      { "icon": "🏗️", "title": "Mega-nests", "detail": "One Florida nest measured 2.9 m across and 6 m deep." }
+    ],
+    "call": {
+      "description": "Surprisingly weak, high-pitched whistles and chattering 'kleek-kik-ik-ik'.",
+      "mnemonic": "kleek-kik-ik-ik-ik",
+      "song": { "style": "chirp", "pitch": 3000, "range": 600, "notes": 7, "tempo": 7, "trill": 0, "harshness": 0.25, "phrases": 1 }
+    },
+    "nest": { "type": "platform", "description": "A colossal stick platform reused and added to every year, high in a tall tree." },
+    "egg": { "shape": "oval", "pattern": "plain", "base": "#F2EEE4", "marking": "#F2EEE4", "lengthMm": 73, "widthMm": 55, "clutch": [1, 3], "incubationDays": [34, 36], "description": "Dull, unmarked white." },
+    "facts": [
+      "The 'eagle scream' in films is usually a Red-tailed Hawk dubbed over.",
+      "Only around 417 nesting pairs remained in the lower 48 US states in 1963.",
+      "'Bald' comes from an old word for white, not hairless."
+    ],
+    "appearance": {
+      "body": "#3E2C21", "belly": "#3A2A20", "head": "#F7F5EF", "neck": "#F7F5EF", "wing": "#3A291F", "wingTip": "#22180F", "tail": "#F7F5EF",
+      "beak": "#F2C230", "beakShape": "hooked", "beakLength": 1.3, "eye": "#F3E3A0", "legs": "#F2C230",
+      "plumpness": 1.1, "bodyLength": 1.25, "bodyTilt": -40, "tailStyle": "fan", "tailLength": 0.7, "headSize": 0.98,
+      "wingPattern": "scallop", "wingPatternColor": "#5A4232"
+    }
+  },
+  {
+    "id": "peregrine-falcon",
+    "name": "Peregrine Falcon",
+    "scientific": "Falco peregrinus",
+    "family": "Falconidae",
+    "familyCommon": "Falcons & caracaras",
+    "order": "Falconiformes",
+    "group": "raptor",
+    "tagline": "The fastest creature ever measured.",
+    "summary": "In a hunting dive — the stoop — the Peregrine tucks its wings and falls on prey at well over 300 km/h. Found on every continent except Antarctica, it has moved into cities, where skyscrapers stand in for cliffs and pigeons are always on the menu.",
+    "status": "LC",
+    "regions": ["northAmerica", "southAmerica", "europe", "africa", "asia", "oceania", "arctic"],
+    "habitats": ["cliffs", "coast", "urban", "mountains", "tundra"],
+    "diet": ["birds"],
+    "dietNote": "Almost exclusively birds — pigeons, ducks, shorebirds — struck in mid-air.",
+    "migration": "partial",
+    "migrationNote": "Arctic-breeding peregrines migrate thousands of kilometres to South America; city birds stay put.",
+    "lengthCm": [34, 58],
+    "wingspanCm": [74, 120],
+    "weightG": [330, 1500],
+    "lifespanYears": [12, 19],
+    "speedKmh": 389,
+    "flightless": false,
+    "traits": { "flight": 10, "song": 2, "smarts": 7, "stealth": 7, "social": 2 },
+    "behaviors": [
+      { "icon": "🚀", "title": "The stoop", "detail": "Dives at over 320 km/h, striking prey with a clenched foot." },
+      { "icon": "🏙️", "title": "City cliffs", "detail": "Nests on skyscrapers, cathedrals and bridges around the world." },
+      { "icon": "👃", "title": "Nostril baffles", "detail": "Small bony cones in the nostrils may help it breathe at extreme speed." },
+      { "icon": "🧤", "title": "Falconer's partner", "detail": "Prized in falconry for thousands of years." }
+    ],
+    "call": {
+      "description": "A harsh, rapid 'kak-kak-kak' near the nest; whining 'ee-chup' between mates.",
+      "mnemonic": "KAK-KAK-KAK-KAK",
+      "song": { "style": "squawk", "pitch": 2000, "range": 150, "notes": 6, "tempo": 6, "trill": 0, "harshness": 0.6, "phrases": 1 }
+    },
+    "nest": { "type": "ledge", "description": "A bare scrape in gravel on a cliff ledge or building — no sticks at all." },
+    "egg": { "shape": "elliptical", "pattern": "blotched", "base": "#E7C8A0", "marking": "#8B3A1E", "lengthMm": 52, "widthMm": 41, "clutch": [3, 4], "incubationDays": [29, 33], "description": "Creamy, almost hidden under dense brick-red blotches." },
+    "facts": [
+      "Its name means 'wanderer' or 'pilgrim'.",
+      "DDT nearly wiped it out in the mid-20th century; bans and captive breeding brought it back.",
+      "A record dive was clocked at about 389 km/h (242 mph)."
+    ],
+    "appearance": {
+      "body": "#5D6B7A", "belly": "#EFE6D8", "head": "#2C3440", "wing": "#56636F", "wingTip": "#2E3640", "tail": "#4E5A66",
+      "beak": "#6B7785", "beakTip": "#2B2B2B", "beakShape": "hooked", "beakLength": 0.95, "eye": "#2A1A10", "legs": "#F2C230",
+      "bodyTilt": -45, "wingLength": 1.3, "tailStyle": "long", "tailLength": 0.7,
+      "bellyPattern": "bars", "bellyPatternColor": "#4A4A4A", "wingPattern": "scallop", "wingPatternColor": "#7C8A99",
+      "markings": [{ "kind": "cheek", "color": "#F2EDE4" }, { "kind": "eyeRing", "color": "#F2C230" }]
+    }
+  },
+  {
+    "id": "harpy-eagle",
+    "name": "Harpy Eagle",
+    "scientific": "Harpia harpyja",
+    "family": "Accipitridae",
+    "familyCommon": "Hawks, eagles & kites",
+    "order": "Accipitriformes",
+    "group": "raptor",
+    "tagline": "The rainforest's crowned sloth-hunter.",
+    "summary": "One of the most powerful eagles alive, the Harpy hunts sloths and monkeys in the canopy of tropical forests. Its rear talons are longer than a grizzly bear's claws, and its relatively short, broad wings let it weave between trunks at speed.",
+    "status": "VU",
+    "regions": ["centralAmerica", "southAmerica"],
+    "habitats": ["rainforest"],
+    "diet": ["smallMammals", "reptiles", "birds"],
+    "dietNote": "Sloths and monkeys make up most of its diet, plus opossums, iguanas and macaws.",
+    "migration": "resident",
+    "migrationNote": "Pairs hold huge forest territories for years.",
+    "lengthCm": [86, 107],
+    "wingspanCm": [176, 224],
+    "weightG": [4000, 9000],
+    "lifespanYears": [25, 35],
+    "speedKmh": 80,
+    "flightless": false,
+    "traits": { "flight": 8, "song": 2, "smarts": 6, "stealth": 8, "social": 2 },
+    "behaviors": [
+      { "icon": "🦥", "title": "Sloth hunter", "detail": "Plucks sloths and monkeys straight from branches." },
+      { "icon": "🦶", "title": "Giant talons", "detail": "Rear talons up to 13 cm long." },
+      { "icon": "📡", "title": "Owl-like face", "detail": "A facial disk of feathers may help focus faint sounds." },
+      { "icon": "🐢", "title": "Slow parenting", "detail": "Raises a single chick every two to three years." }
+    ],
+    "call": {
+      "description": "A weak, wailing scream, mostly heard near the nest.",
+      "mnemonic": "wheeee-ooo",
+      "song": { "style": "screech", "pitch": 1800, "range": -400, "notes": 2, "tempo": 0.8, "trill": 0, "harshness": 0.35, "phrases": 1 }
+    },
+    "nest": { "type": "platform", "description": "A huge stick platform in the crown of an emergent tree such as a kapok, 30 m or more above ground." },
+    "egg": { "shape": "oval", "pattern": "plain", "base": "#ECE7D5", "marking": "#ECE7D5", "lengthMm": 63, "widthMm": 52, "clutch": [1, 2], "incubationDays": [53, 58], "description": "Dull white to yellowish; usually only one chick is raised." },
+    "facts": [
+      "It is named after the harpies of Greek myth, half-woman, half-bird.",
+      "It is the national bird of Panama.",
+      "Females can be nearly twice as heavy as males."
+    ],
+    "appearance": {
+      "body": "#3B3B3F", "belly": "#F2F0EB", "head": "#BFC3C7", "wing": "#34343A", "wingTip": "#1E1E22", "tail": "#3B3B3F",
+      "beak": "#2A2A2A", "beakShape": "hooked", "beakLength": 1.25, "eye": "#3A2A1A", "legs": "#E8B730",
+      "crest": "tufts", "crestColor": "#4A4A50", "crestSize": 1.1,
+      "plumpness": 1.25, "bodyTilt": -50, "headSize": 1.15, "tailStyle": "long", "tailLength": 0.8,
+      "wingPattern": "scallop", "wingPatternColor": "#55555C",
+      "markings": [{ "kind": "collar", "color": "#2E2E33" }]
+    }
+  },
+  {
+    "id": "secretary-bird",
+    "name": "Secretarybird",
+    "scientific": "Sagittarius serpentarius",
+    "family": "Sagittariidae",
+    "familyCommon": "Secretarybird (sole member)",
+    "order": "Accipitriformes",
+    "group": "raptor",
+    "tagline": "An eagle on stilts that stomps snakes.",
+    "summary": "Picture an eagle's head on a crane's body, with quill-like plumes behind the ears. The Secretarybird strides across African grasslands, flushing prey and dispatching snakes with lightning-fast kicks. It is the only living member of its family.",
+    "status": "EN",
+    "regions": ["africa"],
+    "habitats": ["savanna", "grassland"],
+    "diet": ["reptiles", "smallMammals", "insects", "birds"],
+    "dietNote": "Snakes, lizards, rodents, large insects and young birds.",
+    "migration": "resident",
+    "migrationNote": "Mostly sedentary, though some wander after rains and fires.",
+    "lengthCm": [112, 150],
+    "wingspanCm": [191, 213],
+    "weightG": [2300, 4300],
+    "lifespanYears": [10, 19],
+    "speedKmh": 30,
+    "flightless": false,
+    "traits": { "flight": 6, "song": 1, "smarts": 6, "stealth": 4, "social": 3 },
+    "behaviors": [
+      { "icon": "🦵", "title": "Stomp attack", "detail": "A kick lands in about 15 milliseconds with a force around five times its body weight." },
+      { "icon": "🚶", "title": "Long walker", "detail": "Walks 20–30 km a day while foraging." },
+      { "icon": "🎨", "title": "Blushing face", "detail": "Bare facial skin flushes from orange to red when excited." },
+      { "icon": "🛡️", "title": "National emblem", "detail": "Features on the coats of arms of Sudan and South Africa." }
+    ],
+    "call": {
+      "description": "Mostly silent; deep croaks and groans during display.",
+      "mnemonic": "ooorrr · ooorrr",
+      "song": { "style": "croak", "pitch": 300, "range": -50, "notes": 3, "tempo": 2, "trill": 0, "harshness": 0.6, "phrases": 1 }
+    },
+    "nest": { "type": "platform", "description": "A flat stick platform on top of a thorny acacia, reused for years." },
+    "egg": { "shape": "oval", "pattern": "blotched", "base": "#DCE6E6", "marking": "#9C5A3C", "lengthMm": 78, "widthMm": 56, "clutch": [1, 3], "incubationDays": [42, 46], "description": "Bluish-white with faint reddish-brown blotches." },
+    "facts": [
+      "Its name may come from its crest, like quill pens tucked behind a clerk's ear.",
+      "Another theory traces it to the Arabic 'saqr-et-tair', 'hunter-bird'.",
+      "It hunts on foot more than any other raptor."
+    ],
+    "appearance": {
+      "body": "#A8A9A5", "belly": "#C2C3BF", "head": "#B0B1AD", "wing": "#9C9D99", "wingTip": "#1E1E1E", "tail": "#2B2B2B",
+      "beak": "#8C8F94", "beakShape": "hooked", "beakLength": 0.9, "eye": "#3A2414", "legs": "#F0B8A0",
+      "crest": "plumes", "crestColor": "#1E1E1E", "crestSize": 1.4,
+      "legLength": 3.0, "neckLength": 0.5, "bodyTilt": -15, "tailStyle": "long", "tailLength": 1.3, "perch": "ground",
+      "markings": [{ "kind": "mask", "color": "#F07A28" }]
+    }
+  },
+  {
+    "id": "andean-condor",
+    "name": "Andean Condor",
+    "scientific": "Vultur gryphus",
+    "family": "Cathartidae",
+    "familyCommon": "New World vultures",
+    "order": "Accipitriformes",
+    "group": "raptor",
+    "tagline": "A sky-giant that barely needs to flap.",
+    "summary": "With wings over three metres across, the Andean Condor rides mountain updrafts and thermals for hours. It is a national emblem across the Andes, and a vital clean-up crew that recycles carcasses from the mountains to the sea.",
+    "status": "VU",
+    "regions": ["southAmerica"],
+    "habitats": ["mountains", "grassland", "coast", "cliffs"],
+    "diet": ["carrion"],
+    "dietNote": "Large carcasses — llamas, guanacos, cattle, and on the coast, dead seals and whales.",
+    "migration": "resident",
+    "migrationNote": "Ranges over enormous areas each day, but does not migrate.",
+    "lengthCm": [100, 130],
+    "wingspanCm": [270, 320],
+    "weightG": [8000, 15000],
+    "lifespanYears": [50, 75],
+    "speedKmh": 90,
+    "flightless": false,
+    "traits": { "flight": 10, "song": 1, "smarts": 6, "stealth": 3, "social": 6 },
+    "behaviors": [
+      { "icon": "🪂", "title": "Effortless soaring", "detail": "One condor flew 172 km in five hours without flapping." },
+      { "icon": "🌡️", "title": "Thermal rider", "detail": "Flaps for only about 1% of its flight time." },
+      { "icon": "🧹", "title": "Clean-up crew", "detail": "Removing carcasses limits the spread of disease." },
+      { "icon": "👑", "title": "Pecking order", "detail": "Adult males dominate at a carcass; young birds wait their turn." }
+    ],
+    "call": {
+      "description": "Lacks a true voice box; produces only hisses, grunts and clicks.",
+      "mnemonic": "hhhhsss",
+      "song": { "style": "hiss", "pitch": 400, "range": 0, "notes": 2, "tempo": 1.2, "trill": 0, "harshness": 0.95, "phrases": 1 }
+    },
+    "nest": { "type": "ledge", "description": "Lays on bare rock in a cave or crevice on an inaccessible cliff." },
+    "egg": { "shape": "elliptical", "pattern": "plain", "base": "#E9EEF0", "marking": "#E9EEF0", "lengthMm": 110, "widthMm": 70, "clutch": [1, 1], "incubationDays": [54, 58], "description": "A single bluish-white egg, laid every other year." },
+    "facts": [
+      "It is a national symbol of Argentina, Bolivia, Chile, Colombia, Ecuador and Peru.",
+      "Males have a fleshy comb and can tell each other apart by face.",
+      "It is one of the heaviest flying birds in the world."
+    ],
+    "appearance": {
+      "body": "#1A1A1A", "belly": "#222222", "head": "#B5636A", "neck": "#C77A72", "wing": "#1C1C1C", "wingTip": "#0E0E0E", "tail": "#1A1A1A",
+      "beak": "#D8CFC0", "beakTip": "#E8E2D6", "beakShape": "hooked", "beakLength": 1.1, "eye": "#5A2A1A", "legs": "#8E8E8A",
+      "crest": "pointed", "crestColor": "#8A3B3B", "crestSize": 0.5,
+      "neckLength": 0.5, "headSize": 0.8, "plumpness": 1.25, "bodyLength": 1.3, "bodyTilt": -30, "perch": "rock",
+      "wingPattern": "bars", "wingPatternColor": "#F2F2EE", "wingLength": 1.2,
+      "markings": [{ "kind": "collar", "color": "#F5F5F2" }]
+    }
+  },
+  {
+    "id": "barn-owl",
+    "name": "Barn Owl",
+    "scientific": "Tyto alba",
+    "family": "Tytonidae",
+    "familyCommon": "Barn owls",
+    "order": "Strigiformes",
+    "group": "owl",
+    "tagline": "A pale ghost that hunts by ear alone.",
+    "summary": "A heart-shaped face works like a satellite dish, funnelling the faintest rustle to lopsided ears that pinpoint prey in total darkness. Silent wings, a spine-tingling screech and a habit of haunting old barns made it the ghost of countless folk tales.",
+    "status": "LC",
+    "regions": ["northAmerica", "southAmerica", "europe", "africa", "asia", "oceania"],
+    "habitats": ["grassland", "woodland", "urban", "wetland"],
+    "diet": ["smallMammals"],
+    "dietNote": "Voles, mice and shrews, swallowed whole; fur and bones come back up as pellets.",
+    "migration": "resident",
+    "migrationNote": "Sedentary; young birds disperse in autumn.",
+    "lengthCm": [33, 39],
+    "wingspanCm": [80, 95],
+    "weightG": [224, 710],
+    "lifespanYears": [4, 15],
+    "speedKmh": 30,
+    "flightless": false,
+    "traits": { "flight": 7, "song": 3, "smarts": 6, "stealth": 10, "social": 3 },
+    "behaviors": [
+      { "icon": "👂", "title": "Hears in the dark", "detail": "Asymmetric ear openings let it catch mice in complete darkness." },
+      { "icon": "🤫", "title": "Silent flight", "detail": "Comb-like feather edges break up turbulence, muffling every wingbeat." },
+      { "icon": "🐭", "title": "Vole vacuum", "detail": "A family may eat thousands of rodents in a single season." },
+      { "icon": "🫥", "title": "Pellet maker", "detail": "Regurgitates neat pellets of fur and bone — a gift to scientists." }
+    ],
+    "call": {
+      "description": "A long, hissing, blood-curdling screech — never a hoot.",
+      "mnemonic": "shhhhrreeeeee",
+      "song": { "style": "screech", "pitch": 3000, "range": -500, "notes": 1, "tempo": 0.5, "trill": 0, "harshness": 0.85, "phrases": 1 }
+    },
+    "nest": { "type": "cavity", "description": "Lays on bare debris in barns, church towers, tree hollows and nest boxes." },
+    "egg": { "shape": "elliptical", "pattern": "plain", "base": "#FAF8F2", "marking": "#FAF8F2", "lengthMm": 40, "widthMm": 32, "clutch": [4, 7], "incubationDays": [29, 34], "description": "Pure white, laid every 2–3 days so chicks hatch in a staircase of sizes." },
+    "facts": [
+      "It is one of the most widespread land birds in the world.",
+      "Its facial disc can be reshaped by muscles to focus sound.",
+      "Owl pellets are dissected in classrooms worldwide."
+    ],
+    "appearance": {
+      "body": "#C9A476", "belly": "#F6EFE0", "head": "#D4B089", "wing": "#B48A5A", "wingTip": "#8F6A43", "tail": "#B48A5A",
+      "beak": "#EFE6D6", "beakShape": "tiny", "eye": "#151515", "eyeDark": true, "eyeSize": 1.9, "legs": "#E8DCC6",
+      "bodyTilt": -72, "plumpness": 1.15, "headSize": 1.35, "legLength": 0.25,
+      "wingPattern": "spots", "wingPatternColor": "#EFE4CF", "bellyPattern": "spots", "bellyPatternColor": "#8A6A43",
+      "markings": [{ "kind": "disc", "color": "#FBF6EC" }]
+    }
+  },
+  {
+    "id": "great-horned-owl",
+    "name": "Great Horned Owl",
+    "scientific": "Bubo virginianus",
+    "family": "Strigidae",
+    "familyCommon": "True owls",
+    "order": "Strigiformes",
+    "group": "owl",
+    "tagline": "Tiger of the night sky.",
+    "summary": "With ear tufts like horns, eyes of molten gold and a crushing grip, the Great Horned Owl is the quintessential owl of the Americas. It nests in the dead of winter, takes prey from scorpions to skunks, and its deep hoots carry for kilometres on still nights.",
+    "status": "LC",
+    "regions": ["northAmerica", "centralAmerica", "southAmerica"],
+    "habitats": ["forest", "woodland", "desert", "urban", "grassland", "wetland"],
+    "diet": ["smallMammals", "birds", "reptiles", "insects"],
+    "dietNote": "Rabbits, rodents, skunks, waterbirds, even other owls.",
+    "migration": "resident",
+    "migrationNote": "Highly sedentary; pairs hold territories for years.",
+    "lengthCm": [46, 63],
+    "wingspanCm": [101, 145],
+    "weightG": [910, 2500],
+    "lifespanYears": [13, 28],
+    "speedKmh": 65,
+    "flightless": false,
+    "traits": { "flight": 7, "song": 6, "smarts": 7, "stealth": 9, "social": 2 },
+    "behaviors": [
+      { "icon": "🦨", "title": "Skunk eater", "detail": "A weak sense of smell lets it hunt skunks other predators avoid." },
+      { "icon": "🦶", "title": "Iron grip", "detail": "Its talons need about 13 kg of force to pry open." },
+      { "icon": "❄️", "title": "Winter nester", "detail": "Often incubates eggs in January and February, sometimes under snow." },
+      { "icon": "🏚️", "title": "Nest squatter", "detail": "Takes over old nests of hawks, crows and squirrels." }
+    ],
+    "call": {
+      "description": "A deep, soft, stuttering series of hoots; females are higher than males.",
+      "mnemonic": "hoo · h'HOO · hoo · hoo",
+      "song": { "style": "hoot", "pitch": 300, "range": -30, "notes": 5, "tempo": 2.2, "trill": 0, "harshness": 0.05, "phrases": 1 }
+    },
+    "nest": { "type": "platform", "description": "Reuses an old stick nest, a cliff ledge or a tree cavity; adds little material." },
+    "egg": { "shape": "spherical", "pattern": "plain", "base": "#F5F2EA", "marking": "#F5F2EA", "lengthMm": 56, "widthMm": 47, "clutch": [1, 4], "incubationDays": [30, 37], "description": "Dull white and almost round, like most owl eggs." },
+    "facts": [
+      "The 'horns' are feather tufts called plumicorns, not ears.",
+      "Its eyes are nearly as large as a human's and can't move — it turns its head up to 270°.",
+      "It is the provincial bird of Alberta."
+    ],
+    "appearance": {
+      "body": "#8A6D4F", "belly": "#C9B08A", "head": "#8A6D4F", "wing": "#6E5539", "wingTip": "#4F3B26", "tail": "#6E5539",
+      "beak": "#333333", "beakShape": "tiny", "eye": "#F2B705", "eyeSize": 1.8, "legs": "#C9B08A",
+      "bodyTilt": -75, "plumpness": 1.2, "headSize": 1.35, "legLength": 0.25,
+      "crest": "tufts", "crestColor": "#5E4630",
+      "bellyPattern": "bars", "bellyPatternColor": "#4E3A26", "wingPattern": "scallop", "wingPatternColor": "#9C8060",
+      "markings": [{ "kind": "disc", "color": "#C79A62" }, { "kind": "bib", "color": "#F4EFE6" }]
+    }
+  },
+  {
+    "id": "snowy-owl",
+    "name": "Snowy Owl",
+    "scientific": "Bubo scandiacus",
+    "family": "Strigidae",
+    "familyCommon": "True owls",
+    "order": "Strigiformes",
+    "group": "owl",
+    "tagline": "A drift of Arctic snow with golden eyes.",
+    "summary": "A heavy, white owl of the treeless tundra that hunts under the midnight sun. Its fortunes rise and fall with lemmings: in boom years it lays big clutches, in bust years it may not breed at all. Some winters, Snowy Owls irrupt far south, turning up on beaches and airports.",
+    "status": "VU",
+    "regions": ["northAmerica", "europe", "asia", "arctic"],
+    "habitats": ["tundra", "grassland", "coast"],
+    "diet": ["smallMammals", "birds"],
+    "dietNote": "Lemmings above all — an adult may eat over 1,600 a year — plus hares and seabirds.",
+    "migration": "nomadic",
+    "migrationNote": "Wanders vast distances following prey; winter irruptions bring them south.",
+    "lengthCm": [52, 71],
+    "wingspanCm": [125, 150],
+    "weightG": [1600, 2950],
+    "lifespanYears": [9, 20],
+    "speedKmh": 80,
+    "flightless": false,
+    "traits": { "flight": 7, "song": 4, "smarts": 6, "stealth": 8, "social": 2 },
+    "behaviors": [
+      { "icon": "☀️", "title": "Daytime hunter", "detail": "Hunts in the 24-hour daylight of the Arctic summer." },
+      { "icon": "🐹", "title": "Lemming economics", "detail": "Lays up to 11 eggs when lemmings boom — or none in bad years." },
+      { "icon": "🧦", "title": "Feathered feet", "detail": "Thick feathers cover its toes like slippers." },
+      { "icon": "🧳", "title": "Irruptions", "detail": "In some winters, hundreds move far south of their usual range." }
+    ],
+    "call": {
+      "description": "Deep, booming hoots from males on the breeding grounds; barks and cackles when alarmed.",
+      "mnemonic": "HOO · HOO",
+      "song": { "style": "hoot", "pitch": 260, "range": -20, "notes": 2, "tempo": 1, "trill": 0, "harshness": 0.05, "phrases": 2 }
+    },
+    "nest": { "type": "scrape", "description": "A shallow scrape on a windswept tundra mound with a view in every direction." },
+    "egg": { "shape": "elliptical", "pattern": "plain", "base": "#FAFAF7", "marking": "#FAFAF7", "lengthMm": 57, "widthMm": 45, "clutch": [3, 11], "incubationDays": [31, 33], "description": "White, laid every other day — chicks hatch in a long sequence." },
+    "facts": [
+      "Males grow whiter with age; females keep dark bars.",
+      "It is the heaviest owl in North America.",
+      "Hedwig in Harry Potter was a Snowy Owl."
+    ],
+    "appearance": {
+      "body": "#F4F4F1", "belly": "#FBFBF9", "head": "#F7F7F5", "wing": "#EDEDEA", "wingTip": "#D6D6D2", "tail": "#EDEDEA",
+      "beak": "#2E2E2E", "beakShape": "tiny", "eye": "#F2C230", "eyeSize": 1.5, "legs": "#F7F7F5",
+      "bodyTilt": -70, "plumpness": 1.25, "headSize": 1.3, "legLength": 0.25, "perch": "ice",
+      "wingPattern": "spots", "wingPatternColor": "#5A5A5A", "bellyPattern": "bars", "bellyPatternColor": "#9A9A9A",
+      "markings": [{ "kind": "disc", "color": "#FFFFFF" }]
+    }
+  },
+  {
+    "id": "ruby-throated-hummingbird",
+    "name": "Ruby-throated Hummingbird",
+    "scientific": "Archilochus colubris",
+    "family": "Trochilidae",
+    "familyCommon": "Hummingbirds",
+    "order": "Apodiformes",
+    "group": "hummingbird",
+    "tagline": "A three-gram jewel with a jet engine heart.",
+    "summary": "Weighing less than a coin, this hummingbird beats its wings over fifty times a second, hovers, flies backwards — and crosses the Gulf of Mexico nonstop each spring and autumn. The male's throat flashes ruby red only when the light hits it just right.",
+    "status": "LC",
+    "population": "≈ 34 million",
+    "regions": ["northAmerica", "centralAmerica"],
+    "habitats": ["garden", "woodland", "forest"],
+    "diet": ["nectar", "insects"],
+    "dietNote": "Flower nectar and sugar-water feeders, plus tiny insects and spiders for protein.",
+    "migration": "longDistance",
+    "migrationNote": "Many fly ~800 km nonstop across the Gulf of Mexico in about 20 hours.",
+    "lengthCm": [7, 9],
+    "wingspanCm": [8, 11],
+    "weightG": [3, 4],
+    "lifespanYears": [3, 9],
+    "speedKmh": 50,
+    "flightless": false,
+    "traits": { "flight": 10, "song": 3, "smarts": 6, "stealth": 5, "social": 1 },
+    "behaviors": [
+      { "icon": "⚡", "title": "Hyper metabolism", "detail": "Its heart can beat over 1,200 times a minute in flight." },
+      { "icon": "🌊", "title": "Gulf crossing", "detail": "Doubles its weight in fat before a nonstop sea crossing." },
+      { "icon": "💤", "title": "Nightly torpor", "detail": "Drops into a hibernation-like state on cold nights." },
+      { "icon": "🎢", "title": "Pendulum display", "detail": "Males dive in U-shaped arcs to impress females." }
+    ],
+    "call": {
+      "description": "High, squeaky chips and chatters; the wings hum audibly.",
+      "mnemonic": "tchew · tchew-tchew · zzzzz",
+      "song": { "style": "chirp", "pitch": 6500, "range": -800, "notes": 5, "tempo": 7, "trill": 0, "harshness": 0.1, "phrases": 1 }
+    },
+    "nest": { "type": "cup", "description": "A walnut-sized cup of plant down bound with spider silk and camouflaged with lichen." },
+    "egg": { "shape": "longElliptical", "pattern": "plain", "base": "#FCFBF7", "marking": "#FCFBF7", "lengthMm": 13, "widthMm": 9, "clutch": [1, 3], "incubationDays": [12, 14], "description": "Tiny, white, jelly-bean shaped — usually two." },
+    "facts": [
+      "It is the only hummingbird that regularly breeds in eastern North America.",
+      "Its feet are so small it can't walk — only shuffle along a perch.",
+      "The ruby throat colour is structural: it looks black in shade."
+    ],
+    "appearance": {
+      "body": "#2E8B57", "belly": "#EEF3EE", "head": "#2E8B57", "wing": "#566573", "wingTip": "#3B4650", "tail": "#2C3E50",
+      "beak": "#1B1B1B", "beakShape": "needle", "beakLength": 1.1, "legs": "#333333",
+      "plumpness": 0.8, "bodyLength": 0.85, "tailStyle": "forked", "tailLength": 0.6, "legLength": 0.15, "headSize": 0.9, "wingLength": 1.1, "bodyTilt": -30,
+      "markings": [{ "kind": "bib", "color": "#D0102A" }]
+    }
+  },
+  {
+    "id": "atlantic-puffin",
+    "name": "Atlantic Puffin",
+    "scientific": "Fratercula arctica",
+    "family": "Alcidae",
+    "familyCommon": "Auks",
+    "order": "Charadriiformes",
+    "group": "seabird",
+    "tagline": "The sea parrot with a beak full of fish.",
+    "summary": "A small auk with clown-bright breeding colours, the Atlantic Puffin 'flies' underwater after sand eels and returns to its burrow with a dozen fish lined up crosswise in its bill. It spends winters far out at sea, alone on the waves.",
+    "status": "VU",
+    "regions": ["europe", "northAmerica", "oceans", "arctic"],
+    "habitats": ["ocean", "coast", "cliffs"],
+    "diet": ["fish", "crustaceans"],
+    "dietNote": "Sand eels, capelin, herring and sprats caught in dives.",
+    "migration": "oceanic",
+    "migrationNote": "Disperses across the open North Atlantic for the winter, rarely touching land.",
+    "lengthCm": [28, 30],
+    "wingspanCm": [47, 63],
+    "weightG": [310, 550],
+    "lifespanYears": [20, 35],
+    "speedKmh": 88,
+    "flightless": false,
+    "traits": { "flight": 7, "song": 3, "smarts": 5, "stealth": 3, "social": 9 },
+    "behaviors": [
+      { "icon": "🐟", "title": "Fish stacker", "detail": "A spiny tongue and palate pin fish while it catches more — 10 or more at once." },
+      { "icon": "🕳️", "title": "Burrow digger", "detail": "Digs burrows up to a metre long with beak and feet." },
+      { "icon": "🎭", "title": "Seasonal makeup", "detail": "The bright outer bill plates are shed after the breeding season." },
+      { "icon": "🌊", "title": "Underwater flyer", "detail": "Uses its wings to 'fly' underwater, diving to depths of 60 m." }
+    ],
+    "call": {
+      "description": "A low, purring growl from inside burrows, like a distant chainsaw.",
+      "mnemonic": "arrr-arrr-arrr",
+      "song": { "style": "croak", "pitch": 350, "range": 50, "notes": 4, "tempo": 4, "trill": 0, "harshness": 0.55, "phrases": 1 }
+    },
+    "nest": { "type": "burrow", "description": "An earth burrow on a grassy clifftop, lined with grass and feathers." },
+    "egg": { "shape": "elliptical", "pattern": "speckled", "base": "#F8F6F0", "marking": "#C9B8B0", "lengthMm": 63, "widthMm": 44, "clutch": [1, 1], "incubationDays": [36, 45], "description": "A single white egg, often faintly marked with lilac or brown." },
+    "facts": [
+      "A puffin chick is called a 'puffling'.",
+      "Puffin beaks glow under ultraviolet light.",
+      "Its wings beat up to 400 times a minute."
+    ],
+    "appearance": {
+      "body": "#1D1D1D", "belly": "#F7F7F7", "head": "#1D1D1D", "wing": "#1D1D1D", "wingTip": "#111111", "tail": "#1D1D1D",
+      "beak": "#E8572A", "beakTip": "#E8572A", "beakShape": "deep", "beakLength": 1.0, "legs": "#F08030",
+      "bodyTilt": -55, "plumpness": 1.1, "perch": "rock", "legLength": 0.35,
+      "markings": [{ "kind": "cheek", "color": "#E9E9E4" }, { "kind": "disc", "color": "#E9E9E4" }]
+    }
+  },
+  {
+    "id": "wandering-albatross",
+    "name": "Wandering Albatross",
+    "scientific": "Diomedea exulans",
+    "family": "Diomedeidae",
+    "familyCommon": "Albatrosses",
+    "order": "Procellariiformes",
+    "group": "seabird",
+    "tagline": "The widest wings on Earth, circling the Southern Ocean.",
+    "summary": "With wings that can span three and a half metres, the Wandering Albatross circles the globe on the winds of the Southern Ocean, barely flapping. Pairs bond for life with elaborate dances and raise a single chick that takes most of a year to fledge.",
+    "status": "VU",
+    "regions": ["oceans", "antarctica"],
+    "habitats": ["ocean"],
+    "diet": ["squid", "fish", "crustaceans"],
+    "dietNote": "Squid and fish seized at the surface, mostly at night; also follows fishing boats.",
+    "migration": "oceanic",
+    "migrationNote": "Wanders the entire Southern Ocean between breeding attempts.",
+    "lengthCm": [107, 135],
+    "wingspanCm": [250, 350],
+    "weightG": [6000, 12000],
+    "lifespanYears": [50, 60],
+    "speedKmh": 88,
+    "flightless": false,
+    "traits": { "flight": 10, "song": 3, "smarts": 6, "stealth": 3, "social": 6 },
+    "behaviors": [
+      { "icon": "🌬️", "title": "Dynamic soaring", "detail": "Harvests energy from wind layers over the waves to glide for thousands of kilometres." },
+      { "icon": "🔒", "title": "Locked wings", "detail": "A shoulder tendon holds the wings out with no muscular effort." },
+      { "icon": "💃", "title": "Courtship ballet", "detail": "Pairs dance with spread wings, sky-pointing and bill clacking." },
+      { "icon": "💍", "title": "Lifelong bond", "detail": "Mates for life and breeds every second year." }
+    ],
+    "call": {
+      "description": "Bill-clapping, braying groans and whistles during courtship dances.",
+      "mnemonic": "clack-clack-clack · waaa-aaa",
+      "song": { "style": "clatter", "pitch": 500, "range": 0, "notes": 10, "tempo": 12, "trill": 0, "harshness": 0.7, "phrases": 1 }
+    },
+    "nest": { "type": "mound", "description": "A mound of mud and vegetation up to a metre wide, on windswept sub-Antarctic islands." },
+    "egg": { "shape": "elliptical", "pattern": "capped", "base": "#FBF9F4", "marking": "#B0705A", "lengthMm": 127, "widthMm": 79, "clutch": [1, 1], "incubationDays": [75, 83], "description": "A single large white egg, lightly freckled at the blunt end." },
+    "facts": [
+      "It has the largest wingspan of any living bird.",
+      "It may fly more than 120,000 km in a year.",
+      "Chicks take about nine months to fledge."
+    ],
+    "appearance": {
+      "body": "#F7F7F3", "belly": "#FBFBF8", "head": "#F7F7F3", "wing": "#3A3A3A", "wingTip": "#1E1E1E", "tail": "#3A3A3A",
+      "beak": "#F0BFAF", "beakTip": "#E8A890", "beakShape": "hooked", "beakLength": 1.9, "legs": "#F0C8C0",
+      "wingLength": 1.6, "bodyLength": 1.2, "bodyTilt": -8, "neckLength": 0.25, "legLength": 0.4, "perch": "water",
+      "tailStyle": "short", "tailAngle": -12
+    }
+  },
+  {
+    "id": "arctic-tern",
+    "name": "Arctic Tern",
+    "scientific": "Sterna paradisaea",
+    "family": "Laridae",
+    "familyCommon": "Gulls, terns & skimmers",
+    "order": "Charadriiformes",
+    "group": "seabird",
+    "tagline": "Chasing endless summer from pole to pole.",
+    "summary": "No animal travels farther. Each year the Arctic Tern flies from Arctic breeding grounds to the edge of Antarctica and back, zigzagging with the winds — around 70,000 km. It lives in more daylight than any other creature on Earth.",
+    "status": "LC",
+    "regions": ["arctic", "oceans", "antarctica", "northAmerica", "europe", "asia"],
+    "habitats": ["ocean", "coast", "tundra"],
+    "diet": ["fish", "crustaceans", "insects"],
+    "dietNote": "Small fish and krill caught by plunge-diving; insects on the breeding grounds.",
+    "migration": "longDistance",
+    "migrationNote": "Round trips average ~71,000 km; the record is over 90,000 km.",
+    "lengthCm": [33, 39],
+    "wingspanCm": [65, 75],
+    "weightG": [86, 127],
+    "lifespanYears": [15, 34],
+    "speedKmh": 50,
+    "flightless": false,
+    "traits": { "flight": 10, "song": 4, "smarts": 5, "stealth": 3, "social": 8 },
+    "behaviors": [
+      { "icon": "🌍", "title": "Pole-to-pole commute", "detail": "The longest migration of any animal." },
+      { "icon": "☀️", "title": "Endless summer", "detail": "Enjoys two summers a year." },
+      { "icon": "🎯", "title": "Plunge diver", "detail": "Hovers, then dives headfirst after small fish." },
+      { "icon": "🛡️", "title": "Fearless parent", "detail": "Dive-bombs intruders — including people — pecking at their heads." }
+    ],
+    "call": {
+      "description": "A harsh, grating 'kee-arr' and rapid chattering near the colony.",
+      "mnemonic": "KEE-arr · kik-kik-kik",
+      "song": { "style": "screech", "pitch": 3000, "range": -900, "notes": 3, "tempo": 3, "trill": 0, "harshness": 0.45, "phrases": 1 }
+    },
+    "nest": { "type": "scrape", "description": "A bare scrape on shingle, sand or tundra, sometimes lined with shells." },
+    "egg": { "shape": "oval", "pattern": "spotted", "base": "#B8AE85", "marking": "#3E2E22", "lengthMm": 41, "widthMm": 30, "clutch": [1, 3], "incubationDays": [22, 27], "description": "Olive to buff with dark brown spots — superb camouflage on gravel." },
+    "facts": [
+      "Over a lifetime it may fly about 2.4 million km — roughly three trips to the Moon and back.",
+      "It weighs about as much as a deck of cards.",
+      "Its migration route traces a giant S across the Atlantic."
+    ],
+    "appearance": {
+      "body": "#D5D9DE", "belly": "#E9ECEF", "head": "#F7F7F7", "wing": "#C9CED4", "wingTip": "#7A8088", "tail": "#F1F1F1",
+      "beak": "#D62828", "beakShape": "dagger", "beakLength": 1.0, "legs": "#D62828", "legLength": 0.2,
+      "tailStyle": "forked", "tailLength": 1.4, "wingLength": 1.4, "plumpness": 0.85, "perch": "rock",
+      "markings": [{ "kind": "cap", "color": "#1A1A1A" }]
+    }
+  },
+  {
+    "id": "brown-pelican",
+    "name": "Brown Pelican",
+    "scientific": "Pelecanus occidentalis",
+    "family": "Pelecanidae",
+    "familyCommon": "Pelicans",
+    "order": "Pelecaniformes",
+    "group": "seabird",
+    "tagline": "A dive-bombing fisherman with a bucket for a jaw.",
+    "summary": "Brown Pelicans fold their wings and plunge headfirst into the sea from up to 20 m, scooping fish and gallons of water into their stretchy pouch. Hit hard by DDT in the 1970s, they now glide in long lines over beaches from California to Chile.",
+    "status": "LC",
+    "regions": ["northAmerica", "centralAmerica", "southAmerica"],
+    "habitats": ["coast", "ocean"],
+    "diet": ["fish"],
+    "dietNote": "Schooling fish like menhaden, anchovies and sardines.",
+    "migration": "partial",
+    "migrationNote": "Northern birds drift south in winter; others stay along warm coasts.",
+    "lengthCm": [100, 137],
+    "wingspanCm": [200, 230],
+    "weightG": [2000, 5000],
+    "lifespanYears": [10, 43],
+    "speedKmh": 65,
+    "flightless": false,
+    "traits": { "flight": 7, "song": 1, "smarts": 5, "stealth": 3, "social": 8 },
+    "behaviors": [
+      { "icon": "🎯", "title": "Plunge diver", "detail": "One of only two pelicans that dive from the air." },
+      { "icon": "🪣", "title": "Pouch scoop", "detail": "The pouch can hold around 11 litres of water." },
+      { "icon": "🫧", "title": "Built-in airbags", "detail": "Air sacs under the skin cushion the impact of each dive." },
+      { "icon": "🦶", "title": "Foot incubation", "detail": "Warms its eggs under the webs of its feet." }
+    ],
+    "call": {
+      "description": "Adults are nearly silent; chicks squawk and grunt in the colony.",
+      "mnemonic": "(…mostly silence…)",
+      "song": { "style": "croak", "pitch": 200, "range": -20, "notes": 2, "tempo": 1, "trill": 0, "harshness": 0.7, "phrases": 1 }
+    },
+    "nest": { "type": "platform", "description": "A stick platform in mangroves or a scrape on the ground, in noisy colonies." },
+    "egg": { "shape": "oval", "pattern": "plain", "base": "#F4F1E8", "marking": "#F4F1E8", "lengthMm": 73, "widthMm": 46, "clutch": [2, 4], "incubationDays": [28, 30], "description": "Chalky white, often stained by the nest." },
+    "facts": [
+      "It was removed from the US Endangered Species list in 2009.",
+      "It is the state bird of Louisiana.",
+      "Gulls sometimes perch on pelicans' heads to steal fish from the pouch."
+    ],
+    "appearance": {
+      "body": "#7D7B78", "belly": "#8E8A84", "head": "#F4F0E2", "neck": "#5A3A2A", "wing": "#6C6A66", "wingTip": "#3C3B39", "tail": "#6C6A66",
+      "beak": "#C9A26B", "beakShape": "pouch", "beakLength": 0.85, "legs": "#333333", "eye": "#E8E0C8",
+      "neckLength": 0.8, "neckCurve": 1.5, "legLength": 0.4, "perch": "rock", "headSize": 0.85, "bodyTilt": -18
+    }
+  },
+  {
+    "id": "common-murre",
+    "name": "Common Murre",
+    "scientific": "Uria aalge",
+    "family": "Alcidae",
+    "familyCommon": "Auks",
+    "order": "Charadriiformes",
+    "group": "seabird",
+    "tagline": "Cliff-ledge crowds and the world's most famous pointy egg.",
+    "summary": "Murres (guillemots in Britain) breed shoulder-to-shoulder on bare cliff ledges with no nest at all. Their pointed eggs are painted in wildly individual colours and scrawls, so parents can find their own among thousands. Chicks leap from the cliffs before they can fly and are raised at sea by their fathers.",
+    "status": "LC",
+    "regions": ["oceans", "northAmerica", "europe", "asia", "arctic"],
+    "habitats": ["cliffs", "ocean", "coast"],
+    "diet": ["fish", "crustaceans", "squid"],
+    "dietNote": "Capelin, sand eels, herring and cod, caught on dives as deep as 180 m.",
+    "migration": "oceanic",
+    "migrationNote": "Winters at sea, often near the colony.",
+    "lengthCm": [38, 46],
+    "wingspanCm": [61, 73],
+    "weightG": [775, 1250],
+    "lifespanYears": [20, 40],
+    "speedKmh": 80,
+    "flightless": false,
+    "traits": { "flight": 6, "song": 3, "smarts": 5, "stealth": 3, "social": 10 },
+    "behaviors": [
+      { "icon": "🥚", "title": "Signature eggs", "detail": "Every egg has a unique colour and scrawl pattern that its parents recognise." },
+      { "icon": "🧗", "title": "Ledge crowds", "detail": "Packs dozens of birds into a single square metre of rock." },
+      { "icon": "🪂", "title": "Leap of faith", "detail": "Half-grown chicks jump from cliffs and swim out to sea with their fathers." },
+      { "icon": "🤿", "title": "Deep diver", "detail": "Reaches depths of around 180 m." }
+    ],
+    "call": {
+      "description": "A deep, rolling growl — a colony sounds like a crowd at a stadium.",
+      "mnemonic": "aaarrrrr · aaarrrrr",
+      "song": { "style": "croak", "pitch": 300, "range": -40, "notes": 3, "tempo": 2.5, "trill": 0, "harshness": 0.6, "phrases": 1 }
+    },
+    "nest": { "type": "ledge", "description": "No nest: the egg sits on bare rock, balanced against the parent's feet." },
+    "egg": { "shape": "pyriform", "pattern": "scrawled", "base": "#7FC6B8", "marking": "#1F1A14", "lengthMm": 82, "widthMm": 50, "clutch": [1, 1], "incubationDays": [28, 37], "description": "Strongly pear-shaped; ground colour from white to turquoise, covered in black scrawls." },
+    "facts": [
+      "The pointed shape may keep the egg stable on sloping ledges and the blunt end clean.",
+      "It is called the Common Guillemot in Britain.",
+      "Fathers care for the chick at sea for weeks after it leaves the cliff."
+    ],
+    "appearance": {
+      "body": "#3B3330", "belly": "#F5F5F2", "head": "#3B3330", "wing": "#352E2B", "wingTip": "#221D1B", "tail": "#2E2826",
+      "beak": "#1A1A1A", "beakShape": "dagger", "beakLength": 1.2, "legs": "#3A3A3A", "legLength": 0.25,
+      "bodyTilt": -65, "bodyLength": 1.2, "perch": "rock", "wingPattern": "bars", "wingPatternColor": "#EDEDE8"
+    }
+  },
+  {
+    "id": "emperor-penguin",
+    "name": "Emperor Penguin",
+    "scientific": "Aptenodytes forsteri",
+    "family": "Spheniscidae",
+    "familyCommon": "Penguins",
+    "order": "Sphenisciformes",
+    "group": "flightless",
+    "tagline": "Royalty that raises its young in the Antarctic night.",
+    "summary": "The tallest penguin breeds in the coldest, darkest season on Earth. After a long march inland, each male balances a single egg on his feet for about two months while thousands of birds huddle against winds of −40 °C. At sea, emperors dive deeper than any other bird.",
+    "status": "NT",
+    "regions": ["antarctica"],
+    "habitats": ["polar", "ocean"],
+    "diet": ["fish", "squid", "crustaceans"],
+    "dietNote": "Antarctic silverfish, squid and krill hunted under the sea ice.",
+    "migration": "shortDistance",
+    "migrationNote": "Walks up to 120 km across the sea ice to reach its breeding colony.",
+    "lengthCm": [100, 130],
+    "weightG": [22000, 45000],
+    "lifespanYears": [15, 20],
+    "speedKmh": 9,
+    "flightless": true,
+    "traits": { "flight": 0, "song": 6, "smarts": 6, "stealth": 3, "social": 10 },
+    "behaviors": [
+      { "icon": "🫂", "title": "The huddle", "detail": "Thousands huddle and slowly rotate so everyone takes a turn in the warm centre." },
+      { "icon": "🦶", "title": "Egg on feet", "detail": "Males incubate under a feathered brood pouch for ~65 days, fasting for up to four months in total." },
+      { "icon": "🌊", "title": "Record diver", "detail": "Dives to 564 m and can hold its breath for over 25 minutes." },
+      { "icon": "🥛", "title": "Emergency milk", "detail": "A fasting father can feed a newly hatched chick a protein-rich secretion." }
+    ],
+    "call": {
+      "description": "A trumpeting call made with two voices at once, so mates can find each other in a crowd.",
+      "mnemonic": "aaah-ah-ah-aah (in two-part harmony)",
+      "song": { "style": "honk", "pitch": 500, "range": 150, "notes": 4, "tempo": 3, "trill": 25, "harshness": 0.25, "phrases": 1 }
+    },
+    "nest": { "type": "feet", "description": "No nest at all — the egg rests on the father's feet under a fold of skin." },
+    "egg": { "shape": "pyriform", "pattern": "plain", "base": "#EAF0E4", "marking": "#EAF0E4", "lengthMm": 120, "widthMm": 80, "clutch": [1, 1], "incubationDays": [62, 67], "description": "A single greenish-white, pear-shaped egg of about 450 g." },
+    "facts": [
+      "It is the only penguin that breeds during the Antarctic winter.",
+      "New colonies have been discovered from space by spotting guano stains.",
+      "It is the heaviest and tallest of all penguins."
+    ],
+    "appearance": {
+      "body": "#1E2329", "belly": "#FBFBF7", "head": "#1E2329", "wing": "#1E2329", "wingTip": "#1E2329", "tail": "#1E2329",
+      "beak": "#222222", "beakTip": "#E98A2B", "beakShape": "dagger", "beakLength": 0.95, "beakAngle": 8, "legs": "#222222",
+      "bodyTilt": -82, "plumpness": 1.15, "bodyLength": 1.35, "headSize": 0.95, "legLength": 0.12, "perch": "ice",
+      "wingLength": 0.6, "tailLength": 0.4, "tailAngle": -10,
+      "markings": [{ "kind": "cheek", "color": "#F2B233" }, { "kind": "bib", "color": "#F6D77A" }]
+    }
+  },
+  {
+    "id": "common-ostrich",
+    "name": "Common Ostrich",
+    "scientific": "Struthio camelus",
+    "family": "Struthionidae",
+    "familyCommon": "Ostriches",
+    "order": "Struthioniformes",
+    "group": "flightless",
+    "tagline": "The two-toed titan of the African plains.",
+    "summary": "The largest living bird can't fly, but it can outrun nearly anything on two legs. Ostriches roam African savannas in loose groups, kick hard enough to kill a lion, and lay the biggest eggs of any living animal — yet those eggs are the smallest relative to the mother's size.",
+    "status": "LC",
+    "regions": ["africa"],
+    "habitats": ["savanna", "desert", "grassland", "scrubland"],
+    "diet": ["plants", "seeds", "insects", "reptiles"],
+    "dietNote": "Mostly roots, leaves and seeds, plus insects and small lizards; swallows pebbles to grind food.",
+    "migration": "nomadic",
+    "migrationNote": "Wanders with the rains in search of green growth.",
+    "lengthCm": [210, 275],
+    "weightG": [63000, 145000],
+    "lifespanYears": [30, 45],
+    "speedKmh": 70,
+    "flightless": true,
+    "traits": { "flight": 0, "song": 3, "smarts": 3, "stealth": 2, "social": 7 },
+    "behaviors": [
+      { "icon": "🏃", "title": "Speed runner", "detail": "Sprints at ~70 km/h with strides of 3–5 m." },
+      { "icon": "🦶", "title": "Two-toed kick", "detail": "The only bird with two toes per foot; its kick is lethal." },
+      { "icon": "🪨", "title": "Stone swallower", "detail": "Carries around a kilogram of pebbles in its gizzard to grind food." },
+      { "icon": "🥚", "title": "Shared nests", "detail": "Several hens lay in one nest guarded by a major hen and male." }
+    ],
+    "call": {
+      "description": "A deep, lion-like booming roar made by males, with a hiss when threatened.",
+      "mnemonic": "BOOM · BOOM · boooom",
+      "song": { "style": "boom", "pitch": 90, "range": -10, "notes": 3, "tempo": 1, "trill": 0, "harshness": 0.2, "phrases": 1 }
+    },
+    "nest": { "type": "scrape", "description": "A shallow pit scraped in sand, up to 3 m wide." },
+    "egg": { "shape": "oval", "pattern": "plain", "base": "#F3EBD8", "marking": "#F3EBD8", "lengthMm": 150, "widthMm": 130, "clutch": [7, 10], "incubationDays": [42, 46], "description": "Glossy cream, about 1.4 kg — the volume of roughly two dozen chicken eggs." },
+    "facts": [
+      "Its eyes, about 5 cm across, are larger than its brain.",
+      "Ostriches don't bury their heads in sand; they lower them to turn eggs.",
+      "Its wings help with balance, braking and courtship displays."
+    ],
+    "appearance": {
+      "body": "#2A2422", "belly": "#2A2422", "head": "#C8A99A", "neck": "#D1B0A0", "wing": "#2A2422", "wingTip": "#F2EFE9", "tail": "#F2EFE9",
+      "beak": "#B9A089", "beakShape": "flat", "beakLength": 0.6, "legs": "#D8B4A0", "eye": "#2A1A10",
+      "neckLength": 2.6, "neckLean": 6, "legLength": 3.0, "perch": "ground", "bodyTilt": -6, "headSize": 0.55, "eyeSize": 1.4,
+      "plumpness": 1.15, "bodyLength": 1.1, "tailStyle": "fan", "tailLength": 0.7, "tailAngle": -30
+    }
+  },
+  {
+    "id": "emu",
+    "name": "Emu",
+    "scientific": "Dromaius novaehollandiae",
+    "family": "Casuariidae",
+    "familyCommon": "Cassowaries & emus",
+    "order": "Casuariiformes",
+    "group": "flightless",
+    "tagline": "Shaggy wanderer of the Outback with avocado eggs.",
+    "summary": "Australia's tallest bird strides across the continent following rain. Its dark green eggs look like giant avocados, and its fathers are among the most devoted in the bird world — incubating for eight weeks without eating, drinking or leaving the nest.",
+    "status": "LC",
+    "regions": ["oceania"],
+    "habitats": ["grassland", "savanna", "woodland", "desert", "scrubland"],
+    "diet": ["plants", "fruit", "seeds", "insects"],
+    "dietNote": "Fruits, seeds, shoots and flowers, plus insects like grasshoppers and caterpillars.",
+    "migration": "nomadic",
+    "migrationNote": "Travels long distances following rainfall and food.",
+    "lengthCm": [150, 190],
+    "weightG": [18000, 60000],
+    "lifespanYears": [10, 20],
+    "speedKmh": 50,
+    "flightless": true,
+    "traits": { "flight": 0, "song": 4, "smarts": 4, "stealth": 3, "social": 5 },
+    "behaviors": [
+      { "icon": "🥁", "title": "Drumming", "detail": "Females make deep booming drums using an inflatable throat sac." },
+      { "icon": "👨‍🍼", "title": "Devoted dad", "detail": "Males incubate for ~8 weeks without food or water, losing up to a third of their weight." },
+      { "icon": "🏊", "title": "Swimmer", "detail": "Emus are surprisingly good swimmers." },
+      { "icon": "🎖️", "title": "The Emu War", "detail": "In 1932, soldiers with machine guns failed to stop emus raiding wheat farms." }
+    ],
+    "call": {
+      "description": "Low drumming and booming, plus grunts — felt as much as heard.",
+      "mnemonic": "dum-dum-dum-dum…",
+      "song": { "style": "boom", "pitch": 70, "range": 0, "notes": 8, "tempo": 3, "trill": 0, "harshness": 0.15, "phrases": 1 }
+    },
+    "nest": { "type": "ground", "description": "A flattened pad of grass, leaves and sticks on the open ground." },
+    "egg": { "shape": "elliptical", "pattern": "plain", "base": "#2B5A3A", "marking": "#2B5A3A", "lengthMm": 134, "widthMm": 89, "clutch": [5, 15], "incubationDays": [48, 56], "description": "Deep forest-green with a pebbled texture, fading toward black." },
+    "facts": [
+      "It is the second-tallest living bird after the ostrich.",
+      "Each feather has two shafts emerging from a single quill.",
+      "It appears on the Australian coat of arms."
+    ],
+    "appearance": {
+      "body": "#5E5547", "belly": "#5A5143", "head": "#3A3632", "neck": "#7C8FA8", "wing": "#5E5547", "wingTip": "#4E4639", "tail": "#5E5547",
+      "beak": "#3A3632", "beakShape": "flat", "beakLength": 0.6, "legs": "#5E5A55", "eye": "#C9772E",
+      "neckLength": 2.0, "legLength": 3.0, "headSize": 0.55, "plumpness": 1.3, "bodyLength": 1.15, "bodyTilt": 0, "perch": "ground",
+      "tailStyle": "fan", "tailLength": 0.5, "tailAngle": 30, "wingLength": 0.25,
+      "bellyPattern": "streaks", "bellyPatternColor": "#3E372D"
+    }
+  },
+  {
+    "id": "north-island-brown-kiwi",
+    "name": "North Island Brown Kiwi",
+    "scientific": "Apteryx mantelli",
+    "family": "Apterygidae",
+    "familyCommon": "Kiwi",
+    "order": "Apterygiformes",
+    "group": "flightless",
+    "tagline": "A nocturnal sniffer with a gigantic egg.",
+    "summary": "A shaggy, hair-feathered bird the size of a chicken that snuffles through New Zealand forests at night, smelling for worms through nostrils at the very tip of its long bill. A female's egg can weigh about a fifth of her body — one of the biggest eggs relative to body size of any bird.",
+    "status": "VU",
+    "regions": ["oceania"],
+    "habitats": ["forest", "scrubland", "grassland"],
+    "diet": ["invertebrates", "insects", "fruit"],
+    "dietNote": "Earthworms, beetle larvae, spiders and fallen fruit.",
+    "migration": "resident",
+    "migrationNote": "Pairs defend the same territory for life.",
+    "lengthCm": [40, 50],
+    "weightG": [1400, 2800],
+    "lifespanYears": [25, 50],
+    "flightless": true,
+    "traits": { "flight": 0, "song": 4, "smarts": 5, "stealth": 8, "social": 3 },
+    "behaviors": [
+      { "icon": "👃", "title": "Nose at the tip", "detail": "The only bird with nostrils at the end of its bill." },
+      { "icon": "🌙", "title": "Night forager", "detail": "Probes the leaf litter in darkness, guided by smell and touch." },
+      { "icon": "🥚", "title": "Giant egg", "detail": "An egg can be about 20% of the female's weight." },
+      { "icon": "🐣", "title": "Born ready", "detail": "Chicks hatch fully feathered and feed themselves within days." }
+    ],
+    "call": {
+      "description": "Males give a shrill, rising whistle; females answer with a hoarse cry.",
+      "mnemonic": "kee-wee · kee-wee · kee-wee",
+      "song": { "style": "whistle", "pitch": 2800, "range": 1200, "notes": 12, "tempo": 3, "trill": 0, "harshness": 0.15, "phrases": 1 }
+    },
+    "nest": { "type": "burrow", "description": "A burrow, hollow log or dense vegetation; the male does most of the incubating." },
+    "egg": { "shape": "longElliptical", "pattern": "plain", "base": "#F2F3E9", "marking": "#F2F3E9", "lengthMm": 125, "widthMm": 78, "clutch": [1, 2], "incubationDays": [70, 90], "description": "Huge, white to faintly green, about 430 g." },
+    "facts": [
+      "New Zealanders proudly call themselves 'Kiwis'.",
+      "Its body temperature is around 38 °C — more like a mammal than a bird.",
+      "It has whisker-like feathers around the base of its bill."
+    ],
+    "appearance": {
+      "body": "#8A6A4A", "belly": "#9A7A58", "head": "#8A6A4A", "wing": "#8A6A4A", "wingTip": "#8A6A4A", "tail": "#8A6A4A",
+      "beak": "#E6D5B8", "beakShape": "decurved", "beakLength": 1.15, "beakAngle": 22, "legs": "#C9B79A",
+      "bodyTilt": 8, "plumpness": 1.3, "headSize": 0.7, "eyeSize": 0.7, "legLength": 0.7, "perch": "ground",
+      "tailStyle": "short", "tailLength": 0.01, "wingLength": 0.3,
+      "bellyPattern": "streaks", "bellyPatternColor": "#6A4C32"
+    }
+  },
+  {
+    "id": "kakapo",
+    "name": "Kākāpō",
+    "scientific": "Strigops habroptilus",
+    "family": "Strigopidae",
+    "familyCommon": "New Zealand parrots",
+    "order": "Psittaciformes",
+    "group": "parrot",
+    "tagline": "A flightless, moss-green, honey-scented night parrot.",
+    "summary": "The world's heaviest parrot can't fly, comes out at night, smells like honey, and may live for 60 years or more. Hunted to the brink by introduced predators, every surviving Kākāpō now lives on predator-free islands — and every single one has a name.",
+    "status": "CR",
+    "population": "≈ 250 known birds",
+    "regions": ["oceania"],
+    "habitats": ["forest", "scrubland"],
+    "diet": ["plants", "fruit", "seeds"],
+    "dietNote": "Leaves, shoots, roots, bark, and the fruit of rimu trees.",
+    "migration": "resident",
+    "migrationNote": "Sedentary, managed by New Zealand's Department of Conservation.",
+    "lengthCm": [58, 64],
+    "weightG": [950, 4000],
+    "lifespanYears": [60, 90],
+    "flightless": true,
+    "traits": { "flight": 1, "song": 7, "smarts": 6, "stealth": 8, "social": 3 },
+    "behaviors": [
+      { "icon": "📢", "title": "Booming lek", "detail": "Males inflate air sacs and boom from bowl-shaped arenas; booms carry up to 5 km." },
+      { "icon": "🌲", "title": "Rimu timing", "detail": "Breeds only in years when rimu trees fruit heavily — every 2 to 4 years." },
+      { "icon": "🧗", "title": "Climbing parrot", "detail": "Climbs high into trees and 'parachutes' down with short wings." },
+      { "icon": "🍯", "title": "Fragrant", "detail": "Has a sweet, musty, honey-like scent." }
+    ],
+    "call": {
+      "description": "Deep, resonant booms followed by metallic 'chings' during the breeding season.",
+      "mnemonic": "BWOOM · BWOOM · ching!",
+      "song": { "style": "boom", "pitch": 80, "range": 0, "notes": 6, "tempo": 1, "trill": 0, "harshness": 0.1, "phrases": 1 }
+    },
+    "nest": { "type": "cavity", "description": "A hollow beneath tree roots, a rock crevice or dense cover on the ground." },
+    "egg": { "shape": "elliptical", "pattern": "plain", "base": "#FAF8F3", "marking": "#FAF8F3", "lengthMm": 50, "widthMm": 38, "clutch": [1, 4], "incubationDays": [29, 30], "description": "White and rounded; the mother incubates alone." },
+    "facts": [
+      "It is the only flightless parrot in the world.",
+      "A Kākāpō named Sirocco famously tried to mate with a zoologist's head on camera.",
+      "Its face is ringed with whisker-like feathers, giving it an owlish look."
+    ],
+    "appearance": {
+      "body": "#7D9B3A", "belly": "#B5BC5A", "head": "#8AA548", "wing": "#738F34", "wingTip": "#4E6424", "tail": "#6D8732",
+      "beak": "#CFC8B8", "beakShape": "parrot", "beakLength": 0.85, "legs": "#8E8E8A", "legLength": 0.5,
+      "plumpness": 1.35, "bodyTilt": -25, "perch": "ground", "tailLength": 0.8,
+      "wingPattern": "stripes", "wingPatternColor": "#2E3B1A", "bellyPattern": "bars", "bellyPatternColor": "#6B7A2A",
+      "markings": [{ "kind": "disc", "color": "#B5B860" }]
+    }
+  },
+  {
+    "id": "greater-flamingo",
+    "name": "Greater Flamingo",
+    "scientific": "Phoenicopterus roseus",
+    "family": "Phoenicopteridae",
+    "familyCommon": "Flamingos",
+    "order": "Phoenicopteriformes",
+    "group": "wader",
+    "tagline": "Sunrise-pink filter-feeder on stilts.",
+    "summary": "The largest and most widespread flamingo gathers in vast flocks on salty lagoons, feeding upside-down to sieve brine shrimp and algae. Its pink comes from the carotenoids in that food — chicks hatch grey and blush as they grow.",
+    "status": "LC",
+    "regions": ["africa", "europe", "asia"],
+    "habitats": ["wetland", "coast"],
+    "diet": ["crustaceans", "invertebrates", "plants"],
+    "dietNote": "Brine shrimp, insect larvae, molluscs and algae filtered through comb-like lamellae.",
+    "migration": "partial",
+    "migrationNote": "Many flocks move between wetlands following water levels.",
+    "lengthCm": [110, 150],
+    "wingspanCm": [140, 165],
+    "weightG": [2000, 4000],
+    "lifespanYears": [30, 50],
+    "speedKmh": 55,
+    "flightless": false,
+    "traits": { "flight": 6, "song": 4, "smarts": 4, "stealth": 2, "social": 10 },
+    "behaviors": [
+      { "icon": "🦩", "title": "One-legged rest", "detail": "Standing on one leg takes less muscular effort for a flamingo." },
+      { "icon": "🙃", "title": "Upside-down feeder", "detail": "Sweeps its bent bill upside-down through water to filter food." },
+      { "icon": "💃", "title": "Group marches", "detail": "Flocks perform synchronised head-flagging and marching displays." },
+      { "icon": "🥛", "title": "Red milk", "detail": "Both parents feed chicks a red 'crop milk'." }
+    ],
+    "call": {
+      "description": "Goose-like honking and a constant murmuring gabble from the flock.",
+      "mnemonic": "honk-ha-honk · gabble-gabble",
+      "song": { "style": "honk", "pitch": 650, "range": 100, "notes": 4, "tempo": 3, "trill": 0, "harshness": 0.35, "phrases": 1 }
+    },
+    "nest": { "type": "mound", "description": "A cone of mud up to 30 cm high that keeps the egg above flooding." },
+    "egg": { "shape": "longElliptical", "pattern": "plain", "base": "#F7F5EE", "marking": "#F7F5EE", "lengthMm": 90, "widthMm": 55, "clutch": [1, 1], "incubationDays": [27, 31], "description": "A single chalky-white egg." },
+    "facts": [
+      "The joint that bends 'backwards' is the ankle — the knee is hidden in the feathers.",
+      "A flamingo at Adelaide Zoo lived to about 83 years old.",
+      "A group of flamingos is called a 'flamboyance'."
+    ],
+    "appearance": {
+      "body": "#F38CA0", "belly": "#F7A7B6", "head": "#F49AAB", "wing": "#EF6F8A", "wingTip": "#1B1B1B", "tail": "#EF7D95",
+      "beak": "#F2D9D9", "beakTip": "#1B1B1B", "beakShape": "bent", "beakLength": 0.9, "legs": "#E8768C", "eye": "#E8D04A",
+      "neckLength": 2.3, "neckCurve": 1.5, "legLength": 3.2, "bodyTilt": -8, "plumpness": 0.95, "headSize": 0.7, "perch": "water"
+    }
+  },
+  {
+    "id": "great-blue-heron",
+    "name": "Great Blue Heron",
+    "scientific": "Ardea herodias",
+    "family": "Ardeidae",
+    "familyCommon": "Herons & egrets",
+    "order": "Pelecaniformes",
+    "group": "wader",
+    "tagline": "Patience with a dagger.",
+    "summary": "Tall, grey-blue and statue-still, the Great Blue Heron wades the shallows of North America waiting for a fish to stray close — then strikes with a lightning thrust of its S-shaped neck. It nests in noisy treetop colonies and hunts by day and night.",
+    "status": "LC",
+    "regions": ["northAmerica", "centralAmerica"],
+    "habitats": ["wetland", "river", "coast"],
+    "diet": ["fish", "amphibians", "smallMammals", "insects"],
+    "dietNote": "Fish above all, plus frogs, snakes, voles and even ducklings.",
+    "migration": "partial",
+    "migrationNote": "Northern birds head south; many stay wherever water remains unfrozen.",
+    "lengthCm": [97, 137],
+    "wingspanCm": [167, 201],
+    "weightG": [2100, 2500],
+    "lifespanYears": [15, 24],
+    "speedKmh": 40,
+    "flightless": false,
+    "traits": { "flight": 6, "song": 2, "smarts": 6, "stealth": 9, "social": 5 },
+    "behaviors": [
+      { "icon": "🗡️", "title": "Strike from stillness", "detail": "Waits motionless, then spears prey in a blink." },
+      { "icon": "🦴", "title": "Spring-loaded neck", "detail": "Special vertebrae keep the neck in an S-curve, ready to strike." },
+      { "icon": "🏘️", "title": "Heronries", "detail": "Nests in colonies that can hold hundreds of pairs." },
+      { "icon": "🌙", "title": "Night shift", "detail": "Plenty of rod cells in its eyes let it hunt after dark." }
+    ],
+    "call": {
+      "description": "A deep, hoarse croak when disturbed, like a door creaking open.",
+      "mnemonic": "FRAAAHNK",
+      "song": { "style": "croak", "pitch": 250, "range": -60, "notes": 1, "tempo": 1, "trill": 0, "harshness": 0.7, "phrases": 2 }
+    },
+    "nest": { "type": "platform", "description": "A large platform of sticks high in a tree, rebuilt year after year." },
+    "egg": { "shape": "elliptical", "pattern": "plain", "base": "#A9D2D0", "marking": "#A9D2D0", "lengthMm": 64, "widthMm": 45, "clutch": [2, 6], "incubationDays": [27, 28], "description": "Unmarked pale blue-green." },
+    "facts": [
+      "It weighs only around 2.5 kg despite standing over a metre tall, thanks to hollow bones.",
+      "An all-white form, the 'Great White Heron', lives in Florida.",
+      "Herons have been known to choke on fish too large to swallow."
+    ],
+    "appearance": {
+      "body": "#7F8EA3", "belly": "#A8B5C4", "head": "#E9EDF2", "neck": "#9AA7B8", "wing": "#6F7F96", "wingTip": "#3A4558", "tail": "#6F7F96",
+      "beak": "#E3B23C", "beakShape": "dagger", "beakLength": 1.3, "legs": "#8A7A5A", "eye": "#E8D04A",
+      "neckLength": 1.8, "neckCurve": 1.2, "legLength": 2.6, "crest": "plumes", "crestColor": "#2A2A2A", "crestSize": 0.9,
+      "bodyTilt": -15, "headSize": 0.75, "perch": "ground",
+      "markings": [{ "kind": "stripe", "color": "#1C1C1C" }]
+    }
+  },
+  {
+    "id": "shoebill",
+    "name": "Shoebill",
+    "scientific": "Balaeniceps rex",
+    "family": "Balaenicipitidae",
+    "familyCommon": "Shoebill (sole member)",
+    "order": "Pelecaniformes",
+    "group": "wader",
+    "tagline": "A prehistoric stare above a wooden-clog bill.",
+    "summary": "Standing motionless for hours in African papyrus swamps, the Shoebill waits for a lungfish to surface — then collapses forward with its whole body to engulf it. Its enormous bill, piercing gaze and machine-gun bill-clattering make it one of the most unforgettable birds alive.",
+    "status": "VU",
+    "population": "≈ 3,300–5,300 mature birds",
+    "regions": ["africa"],
+    "habitats": ["wetland"],
+    "diet": ["fish", "reptiles", "amphibians"],
+    "dietNote": "Lungfish, catfish and tilapia; also frogs, water snakes and baby crocodiles.",
+    "migration": "resident",
+    "migrationNote": "Sedentary, moving only as water levels change.",
+    "lengthCm": [110, 140],
+    "wingspanCm": [230, 260],
+    "weightG": [4000, 7000],
+    "lifespanYears": [25, 35],
+    "flightless": false,
+    "traits": { "flight": 5, "song": 1, "smarts": 5, "stealth": 10, "social": 1 },
+    "behaviors": [
+      { "icon": "🗿", "title": "Statue mode", "detail": "Can stand still for hours watching for prey." },
+      { "icon": "💥", "title": "Collapse strike", "detail": "Lunges with its entire body, wings flailing, to engulf prey." },
+      { "icon": "🥁", "title": "Bill clatter", "detail": "Greets mates with loud, rapid bill-clapping." },
+      { "icon": "🚿", "title": "Egg cooler", "detail": "Carries water in its bill to cool eggs and chicks." }
+    ],
+    "call": {
+      "description": "Mostly silent apart from a rapid wooden bill-clatter like a machine gun.",
+      "mnemonic": "tktktktktktktk",
+      "song": { "style": "clatter", "pitch": 300, "range": 0, "notes": 22, "tempo": 18, "trill": 0, "harshness": 0.85, "phrases": 1 }
+    },
+    "nest": { "type": "mound", "description": "A wide mound of floating vegetation trampled flat in the swamp." },
+    "egg": { "shape": "elliptical", "pattern": "plain", "base": "#EEF2F0", "marking": "#EEF2F0", "lengthMm": 87, "widthMm": 60, "clutch": [1, 3], "incubationDays": [29, 31], "description": "Chalky bluish-white; usually just one chick survives." },
+    "facts": [
+      "It was long thought to be a stork, but its closest relatives are pelicans.",
+      "Its bill can be around 24 cm long and very wide.",
+      "Ancient Egyptians depicted Shoebill-like birds."
+    ],
+    "appearance": {
+      "body": "#7F8A93", "belly": "#8D979F", "head": "#86929B", "wing": "#76818A", "wingTip": "#505860", "tail": "#6F7A83",
+      "beak": "#C8B79A", "beakTip": "#8A7A60", "beakShape": "shoe", "beakLength": 1.0, "eye": "#E8E5C5", "legs": "#3B3B3B",
+      "headSize": 1.25, "legLength": 2.0, "neckLength": 0.9, "crest": "tufts", "crestColor": "#7A858E", "crestSize": 0.5,
+      "plumpness": 1.2, "bodyTilt": -35, "perch": "ground", "wingPattern": "scallop", "wingPatternColor": "#97A1A9"
+    }
+  },
+  {
+    "id": "red-crowned-crane",
+    "name": "Red-crowned Crane",
+    "scientific": "Grus japonensis",
+    "family": "Gruidae",
+    "familyCommon": "Cranes",
+    "order": "Gruiformes",
+    "group": "wader",
+    "tagline": "A dancing emblem of luck and long life.",
+    "summary": "In snowy Hokkaido marshes, pairs of Red-crowned Cranes leap, bow and toss grass in exuberant duets. Revered across East Asia as a symbol of fidelity and longevity, it is one of the rarest cranes on Earth.",
+    "status": "VU",
+    "regions": ["asia"],
+    "habitats": ["wetland", "river", "grassland"],
+    "diet": ["fish", "invertebrates", "insects", "plants"],
+    "dietNote": "Fish, crabs, insects, snails and rice grain.",
+    "migration": "partial",
+    "migrationNote": "Mainland birds migrate to Korea and China; the Japanese population stays all year.",
+    "lengthCm": [150, 158],
+    "wingspanCm": [220, 250],
+    "weightG": [7000, 10500],
+    "lifespanYears": [30, 40],
+    "speedKmh": 60,
+    "flightless": false,
+    "traits": { "flight": 7, "song": 7, "smarts": 6, "stealth": 3, "social": 7 },
+    "behaviors": [
+      { "icon": "💃", "title": "Dancing duets", "detail": "Pairs bow, leap and toss vegetation in elaborate dances." },
+      { "icon": "🎺", "title": "Unison call", "detail": "Mates throw back their heads and call in tight synchrony." },
+      { "icon": "🧧", "title": "Symbol of luck", "detail": "Associated with longevity and fidelity in East Asian art." },
+      { "icon": "❄️", "title": "Winter gatherings", "detail": "Japanese cranes gather at winter feeding sites in Hokkaido." }
+    ],
+    "call": {
+      "description": "Loud, trumpeting bugles that carry for kilometres across the marsh.",
+      "mnemonic": "KAR-ROO · KAR-ROO",
+      "song": { "style": "bugle", "pitch": 1000, "range": 200, "notes": 4, "tempo": 2, "trill": 0, "harshness": 0.25, "phrases": 1 }
+    },
+    "nest": { "type": "mound", "description": "A platform of reeds and grasses in shallow water." },
+    "egg": { "shape": "longElliptical", "pattern": "spotted", "base": "#C9B98E", "marking": "#6A4A2E", "lengthMm": 101, "widthMm": 63, "clutch": [1, 2], "incubationDays": [29, 34], "description": "Olive-buff with brown spots." },
+    "facts": [
+      "The red crown is bare skin that brightens when the bird is excited.",
+      "Folding 1,000 paper cranes is said to grant a wish (senbazuru).",
+      "It is one of the heaviest cranes in the world."
+    ],
+    "appearance": {
+      "body": "#F7F7F4", "belly": "#FBFBF8", "head": "#1C1C1C", "neck": "#1C1C1C", "wing": "#F1F1EE", "wingTip": "#1C1C1C", "tail": "#1C1C1C",
+      "beak": "#8C8C6A", "beakShape": "dagger", "beakLength": 1.0, "legs": "#1C1C1C",
+      "neckLength": 2.0, "neckCurve": 0.6, "legLength": 2.8, "headSize": 0.7, "bodyTilt": -12, "perch": "ground",
+      "tailStyle": "fan", "tailLength": 0.6, "tailAngle": 20,
+      "markings": [{ "kind": "cap", "color": "#D62828" }, { "kind": "stripe", "color": "#F7F7F4" }]
+    }
+  },
+  {
+    "id": "mallard",
+    "name": "Mallard",
+    "scientific": "Anas platyrhynchos",
+    "family": "Anatidae",
+    "familyCommon": "Ducks, geese & swans",
+    "order": "Anseriformes",
+    "group": "waterfowl",
+    "tagline": "The emerald-headed ancestor of nearly every farm duck.",
+    "summary": "Familiar on every park pond, the Mallard is one of the most successful birds on the planet. Drakes wear glossy green heads and a white collar; hens are mottled brown and do all the famous quacking. Almost every domestic duck breed descends from it.",
+    "status": "LC",
+    "regions": ["northAmerica", "europe", "asia", "africa", "oceania"],
+    "habitats": ["wetland", "river", "urban", "garden"],
+    "diet": ["plants", "seeds", "invertebrates", "insects"],
+    "dietNote": "Water plants, seeds and grain, plus snails, insects and larvae.",
+    "migration": "partial",
+    "migrationNote": "Northern populations move south; many urban birds never leave.",
+    "lengthCm": [50, 65],
+    "wingspanCm": [81, 98],
+    "weightG": [700, 1600],
+    "lifespanYears": [5, 27],
+    "speedKmh": 88,
+    "flightless": false,
+    "traits": { "flight": 7, "song": 4, "smarts": 5, "stealth": 3, "social": 8 },
+    "behaviors": [
+      { "icon": "🦆", "title": "Dabbling", "detail": "Tips 'bottoms-up' to feed below the surface without diving." },
+      { "icon": "🗣️", "title": "Only females quack", "detail": "The loud quack is the hen's; drakes give a quiet, raspy 'rhaeb'." },
+      { "icon": "👁️", "title": "Half-brain sleep", "detail": "Can sleep with one eye open and half its brain awake." },
+      { "icon": "🧬", "title": "Duck of all ducks", "detail": "The wild ancestor of nearly all domestic ducks." }
+    ],
+    "call": {
+      "description": "The hen's descending series of loud quacks; the drake's soft, nasal notes.",
+      "mnemonic": "QUACK-quack-quack-quack-quack",
+      "song": { "style": "quack", "pitch": 380, "range": -80, "notes": 5, "tempo": 3, "trill": 0, "harshness": 0.6, "phrases": 1 }
+    },
+    "nest": { "type": "ground", "description": "A shallow bowl of plant material and down, hidden in vegetation near water." },
+    "egg": { "shape": "elliptical", "pattern": "plain", "base": "#D9DEC0", "marking": "#D9DEC0", "lengthMm": 57, "widthMm": 41, "clutch": [8, 13], "incubationDays": [27, 28], "description": "Smooth greenish-buff to creamy white." },
+    "facts": [
+      "The blue wing patch, edged in white, is called the speculum.",
+      "Ducklings imprint on the first moving thing they see.",
+      "Preen oil keeps its feathers waterproof."
+    ],
+    "appearance": {
+      "body": "#9C9A94", "belly": "#7A5A48", "head": "#1F6B3A", "wing": "#8A877F", "wingTip": "#5D5A54", "tail": "#2B2B2B",
+      "beak": "#E6C33A", "beakShape": "flat", "legs": "#F08A30",
+      "bodyTilt": -5, "plumpness": 0.95, "bodyLength": 1.15, "perch": "water", "tailStyle": "short", "tailAngle": -25, "neckLength": 0.15,
+      "wingPattern": "bars", "wingPatternColor": "#3D55B5",
+      "markings": [{ "kind": "collar", "color": "#FFFFFF" }]
+    }
+  },
+  {
+    "id": "mandarin-duck",
+    "name": "Mandarin Duck",
+    "scientific": "Aix galericulata",
+    "family": "Anatidae",
+    "familyCommon": "Ducks, geese & swans",
+    "order": "Anseriformes",
+    "group": "waterfowl",
+    "tagline": "An ornate tree-dwelling duck painted by an emperor's artist.",
+    "summary": "The drake Mandarin looks like a porcelain ornament: orange 'sails' on its back, whiskered cheeks, a white eyebrow and a red bill. It nests in tree holes high above the ground, and its ducklings take a fearless leap to the forest floor the day after hatching.",
+    "status": "LC",
+    "regions": ["asia", "europe"],
+    "habitats": ["forest", "river", "wetland"],
+    "diet": ["plants", "seeds", "nuts", "insects", "invertebrates"],
+    "dietNote": "Seeds, acorns and beech mast, plus snails and insects.",
+    "migration": "partial",
+    "migrationNote": "East Asian birds migrate south for winter; introduced European birds are resident.",
+    "lengthCm": [41, 49],
+    "wingspanCm": [65, 75],
+    "weightG": [430, 700],
+    "lifespanYears": [6, 12],
+    "flightless": false,
+    "traits": { "flight": 7, "song": 3, "smarts": 5, "stealth": 5, "social": 7 },
+    "behaviors": [
+      { "icon": "🌳", "title": "Tree nester", "detail": "Nests in tree cavities as high as 10 m up." },
+      { "icon": "🪂", "title": "First leap", "detail": "Ducklings jump from the nest hole and bounce unharmed to the ground." },
+      { "icon": "💑", "title": "Love symbol", "detail": "A symbol of marital devotion in East Asia — though pairs usually re-form each year." },
+      { "icon": "⛵", "title": "Orange sails", "detail": "Drakes have upright, sail-like orange feathers on their back." }
+    ],
+    "call": {
+      "description": "Drakes give soft, rising whistles; hens give clucking 'kek' notes.",
+      "mnemonic": "hwee-oo · kek-kek",
+      "song": { "style": "whistle", "pitch": 1800, "range": 600, "notes": 2, "tempo": 2, "trill": 0, "harshness": 0.25, "phrases": 2 }
+    },
+    "nest": { "type": "cavity", "description": "A tree hole lined with down, often near water." },
+    "egg": { "shape": "elliptical", "pattern": "plain", "base": "#F2E6CF", "marking": "#F2E6CF", "lengthMm": 51, "widthMm": 37, "clutch": [9, 12], "incubationDays": [28, 30], "description": "Smooth, creamy buff." },
+    "facts": [
+      "Introduced birds in Britain may now be an important reserve for the species.",
+      "Unlike most ducks, it often perches in trees.",
+      "Drakes lose their finery in a drab summer 'eclipse' plumage."
+    ],
+    "appearance": {
+      "body": "#C98A4B", "belly": "#5E2F4A", "head": "#2E6A5E", "wing": "#4B3A5A", "wingTip": "#2B2235", "tail": "#2B2235",
+      "beak": "#D2323A", "beakTip": "#F0C0C0", "beakShape": "flat", "beakLength": 0.7, "legs": "#E8A060",
+      "crest": "pointed", "crestColor": "#B4532A", "bodyTilt": -5, "perch": "water", "neckLength": 0.15,
+      "wingPattern": "bars", "wingPatternColor": "#E8823A",
+      "markings": [{ "kind": "stripe", "color": "#FFFFFF" }, { "kind": "cheek", "color": "#E8823A" }]
+    }
+  },
+  {
+    "id": "common-loon",
+    "name": "Common Loon",
+    "scientific": "Gavia immer",
+    "family": "Gaviidae",
+    "familyCommon": "Loons (divers)",
+    "order": "Gaviiformes",
+    "group": "waterfowl",
+    "tagline": "The voice of wild northern lakes.",
+    "summary": "A checkerboard-backed diver with ruby eyes, the Common Loon is built for underwater pursuit — its bones are solid, its legs set far back. On summer nights its yodels and wails echo across northern lakes, one of the most evocative sounds in nature.",
+    "status": "LC",
+    "regions": ["northAmerica", "europe", "arctic"],
+    "habitats": ["wetland", "coast", "ocean"],
+    "diet": ["fish", "crustaceans", "invertebrates"],
+    "dietNote": "Perch, trout and other fish chased underwater; crayfish and snails too.",
+    "migration": "shortDistance",
+    "migrationNote": "Leaves freezing lakes for ice-free coasts each winter.",
+    "lengthCm": [66, 91],
+    "wingspanCm": [127, 147],
+    "weightG": [2200, 7600],
+    "lifespanYears": [20, 30],
+    "speedKmh": 120,
+    "flightless": false,
+    "traits": { "flight": 7, "song": 9, "smarts": 5, "stealth": 6, "social": 4 },
+    "behaviors": [
+      { "icon": "🎶", "title": "Haunting yodel", "detail": "Males yodel to defend territories; the wail keeps pairs in touch." },
+      { "icon": "🪨", "title": "Solid bones", "detail": "Dense bones help it dive to around 60 m." },
+      { "icon": "🛫", "title": "Runway takeoff", "detail": "Needs a long stretch of open water to patter into the air." },
+      { "icon": "🐣", "title": "Piggyback chicks", "detail": "Chicks ride on their parents' backs for warmth and safety." }
+    ],
+    "call": {
+      "description": "Tremolos, wails, hoots and a rising, rollicking yodel.",
+      "mnemonic": "ooo-AAH-ooo · yodel-ee, yodel-ee",
+      "song": { "style": "yodel", "pitch": 900, "range": 600, "notes": 3, "tempo": 0.8, "trill": 0, "harshness": 0.05, "phrases": 1 }
+    },
+    "nest": { "type": "mound", "description": "A heap of vegetation right at the water's edge, often on an island." },
+    "egg": { "shape": "longElliptical", "pattern": "spotted", "base": "#6E5E3E", "marking": "#2A1E14", "lengthMm": 89, "widthMm": 56, "clutch": [1, 2], "incubationDays": [26, 31], "description": "Olive-brown with sparse dark spots." },
+    "facts": [
+      "Its legs are set so far back that it can barely walk on land.",
+      "It appears on the Canadian one-dollar coin — the 'loonie'.",
+      "Red eyes may help it see underwater."
+    ],
+    "appearance": {
+      "body": "#151A1C", "belly": "#F4F4F0", "head": "#0E2A22", "wing": "#151A1C", "wingTip": "#0A0D0E", "tail": "#151A1C",
+      "beak": "#121212", "beakShape": "dagger", "beakLength": 1.3, "eye": "#C62828", "legs": "#222222",
+      "perch": "water", "bodyTilt": -3, "bodyLength": 1.3, "plumpness": 0.95, "neckLength": 0.25,
+      "wingPattern": "spots", "wingPatternColor": "#FFFFFF",
+      "markings": [{ "kind": "collar", "color": "#E8EDEA" }]
+    }
+  },
+  {
+    "id": "scarlet-macaw",
+    "name": "Scarlet Macaw",
+    "scientific": "Ara macao",
+    "family": "Psittacidae",
+    "familyCommon": "New World & African parrots",
+    "order": "Psittaciformes",
+    "group": "parrot",
+    "tagline": "A flying flag of red, gold and blue.",
+    "summary": "Scarlet Macaws fly over rainforest rivers in noisy pairs, wings almost touching. They crack palm nuts with a bill that can exert enormous pressure, gather by the hundreds at clay licks, and may live for half a century or more.",
+    "status": "LC",
+    "regions": ["centralAmerica", "southAmerica"],
+    "habitats": ["rainforest", "river"],
+    "diet": ["seeds", "nuts", "fruit"],
+    "dietNote": "Seeds, nuts, fruit and flowers — often unripe and toxic, which may be why it eats clay.",
+    "migration": "resident",
+    "migrationNote": "Ranges widely each day between roosts and feeding trees.",
+    "lengthCm": [81, 96],
+    "weightG": [900, 1100],
+    "lifespanYears": [40, 75],
+    "speedKmh": 56,
+    "flightless": false,
+    "traits": { "flight": 7, "song": 5, "smarts": 9, "stealth": 2, "social": 9 },
+    "behaviors": [
+      { "icon": "🧱", "title": "Clay licks", "detail": "Gathers at riverbanks to eat clay, possibly for sodium or to neutralise toxins." },
+      { "icon": "🥜", "title": "Nutcracker", "detail": "Its powerful bill opens nuts most animals can't." },
+      { "icon": "🦶", "title": "Zygodactyl feet", "detail": "Two toes forward, two back — like hands for holding food." },
+      { "icon": "💑", "title": "Pairs for life", "detail": "Mates fly side-by-side even within huge flocks." }
+    ],
+    "call": {
+      "description": "Raucous, screeching squawks that carry far over the canopy.",
+      "mnemonic": "RRAAAH! · RRAAAH!",
+      "song": { "style": "squawk", "pitch": 1400, "range": 300, "notes": 3, "tempo": 2, "trill": 0, "harshness": 0.75, "phrases": 1 }
+    },
+    "nest": { "type": "cavity", "description": "A hollow high in a dead or living tree, lined with wood chips." },
+    "egg": { "shape": "elliptical", "pattern": "plain", "base": "#FBFAF6", "marking": "#FBFAF6", "lengthMm": 46, "widthMm": 35, "clutch": [2, 4], "incubationDays": [24, 28], "description": "White and rounded, like most parrot eggs." },
+    "facts": [
+      "It is the national bird of Honduras.",
+      "The pattern of tiny feathers on its bare face is unique to each bird.",
+      "In captivity it can learn to mimic human speech."
+    ],
+    "appearance": {
+      "body": "#D7261E", "belly": "#D7261E", "head": "#D7261E", "wing": "#F2C40F", "wingTip": "#1F5FBF", "tail": "#D7261E",
+      "beak": "#EFE7DA", "beakTip": "#1B1B1B", "beakShape": "parrot", "eye": "#F2E8C9", "legs": "#5A5A5A",
+      "tailStyle": "long", "tailLength": 1.5, "bodyTilt": -55, "wingLength": 1.1,
+      "markings": [{ "kind": "cheek", "color": "#F7F3EE" }]
+    }
+  },
+  {
+    "id": "sulphur-crested-cockatoo",
+    "name": "Sulphur-crested Cockatoo",
+    "scientific": "Cacatua galerita",
+    "family": "Cacatuidae",
+    "familyCommon": "Cockatoos",
+    "order": "Psittaciformes",
+    "group": "parrot",
+    "tagline": "A raucous genius with a golden mohawk.",
+    "summary": "Big, white, loud and astonishingly clever, this cockatoo has learned to open wheelie bins in Sydney — a skill that spread suburb to suburb by imitation. It can dance to a beat, lives for decades, and lets the whole street know when it wakes up.",
+    "status": "LC",
+    "regions": ["oceania"],
+    "habitats": ["forest", "woodland", "urban", "garden"],
+    "diet": ["seeds", "nuts", "fruit", "insects"],
+    "dietNote": "Seeds, nuts, bulbs and roots, plus insect larvae; city birds raid bins.",
+    "migration": "resident",
+    "migrationNote": "Sedentary, roosting communally in the same trees for years.",
+    "lengthCm": [44, 55],
+    "weightG": [800, 975],
+    "lifespanYears": [40, 70],
+    "speedKmh": 60,
+    "flightless": false,
+    "traits": { "flight": 6, "song": 3, "smarts": 9, "stealth": 1, "social": 10 },
+    "behaviors": [
+      { "icon": "🗑️", "title": "Bin-opening culture", "detail": "Learned to flip open wheelie bins; the trick spread socially across Sydney." },
+      { "icon": "🕺", "title": "Dance moves", "detail": "Snowball the cockatoo grooved to music with over a dozen distinct moves." },
+      { "icon": "👀", "title": "Sentinels", "detail": "Flocks post lookouts that screech alarms." },
+      { "icon": "🚰", "title": "Fountain users", "detail": "Some city birds have learned to turn on drinking fountains." }
+    ],
+    "call": {
+      "description": "An ear-splitting, grating screech, plus chatter and whistles.",
+      "mnemonic": "RAAAARK!",
+      "song": { "style": "squawk", "pitch": 1800, "range": -300, "notes": 1, "tempo": 1, "trill": 0, "harshness": 0.9, "phrases": 2 }
+    },
+    "nest": { "type": "cavity", "description": "A deep hollow in a large eucalypt near water." },
+    "egg": { "shape": "elliptical", "pattern": "plain", "base": "#FBFAF6", "marking": "#FBFAF6", "lengthMm": 46, "widthMm": 33, "clutch": [2, 3], "incubationDays": [25, 27], "description": "White and rounded." },
+    "facts": [
+      "Its crest is raised when it is excited, alarmed or showing off.",
+      "Cockatoos can live longer than many people in captivity.",
+      "Its chewing can damage timber decks and window frames."
+    ],
+    "appearance": {
+      "body": "#FBFBF6", "belly": "#FBFBF6", "head": "#FBFBF6", "wing": "#F3F1E8", "wingTip": "#E8E2C8", "tail": "#F3F1E8",
+      "beak": "#2B2B2B", "beakShape": "parrot", "legs": "#555555",
+      "crest": "fan", "crestColor": "#F6D32D", "crestSize": 1.1, "bodyTilt": -50,
+      "markings": [{ "kind": "eyeRing", "color": "#DFEEFF" }]
+    }
+  },
+  {
+    "id": "toco-toucan",
+    "name": "Toco Toucan",
+    "scientific": "Ramphastos toco",
+    "family": "Ramphastidae",
+    "familyCommon": "Toucans",
+    "order": "Piciformes",
+    "group": "tropical",
+    "tagline": "A sunset of a bill that doubles as a radiator.",
+    "summary": "The largest toucan carries an enormous orange bill that is surprisingly light — a thin keratin shell over a honeycomb of bone. It uses it to pluck fruit from slender branches, toss food into the air, and shed body heat on hot days.",
+    "status": "LC",
+    "regions": ["southAmerica"],
+    "habitats": ["savanna", "woodland", "rainforest"],
+    "diet": ["fruit", "insects", "eggs", "reptiles"],
+    "dietNote": "Mainly fruit; also insects, lizards, and the eggs and nestlings of other birds.",
+    "migration": "resident",
+    "migrationNote": "Moves seasonally with fruiting trees but does not migrate.",
+    "lengthCm": [55, 65],
+    "weightG": [500, 860],
+    "lifespanYears": [15, 20],
+    "flightless": false,
+    "traits": { "flight": 4, "song": 3, "smarts": 6, "stealth": 3, "social": 7 },
+    "behaviors": [
+      { "icon": "🌡️", "title": "Beak radiator", "detail": "Varies blood flow to its bill to dump or save heat." },
+      { "icon": "🍈", "title": "Fruit juggler", "detail": "Tosses fruit into the air and catches it in its bill." },
+      { "icon": "🛌", "title": "Folding sleeper", "detail": "Sleeps with its bill tucked over its back and tail folded up." },
+      { "icon": "🪺", "title": "Nest raider", "detail": "Raids other birds' nests for eggs and chicks." }
+    ],
+    "call": {
+      "description": "Deep, croaking grunts and rattles.",
+      "mnemonic": "grrek · grrek · grrek",
+      "song": { "style": "croak", "pitch": 450, "range": -50, "notes": 4, "tempo": 2.5, "trill": 0, "harshness": 0.6, "phrases": 1 }
+    },
+    "nest": { "type": "cavity", "description": "A tree hollow or old woodpecker hole, sometimes a termite mound." },
+    "egg": { "shape": "elliptical", "pattern": "plain", "base": "#FBFAF5", "marking": "#FBFAF5", "lengthMm": 45, "widthMm": 32, "clutch": [2, 4], "incubationDays": [17, 18], "description": "Glossy white." },
+    "facts": [
+      "Its bill is about a third of its total length.",
+      "It is the largest of all toucans.",
+      "Serrated bill edges help it grip slippery fruit."
+    ],
+    "appearance": {
+      "body": "#151515", "belly": "#151515", "head": "#151515", "wing": "#151515", "wingTip": "#0B0B0B", "tail": "#151515",
+      "beak": "#F08A1C", "beakTip": "#111111", "beakShape": "toucan", "beakLength": 0.8, "eye": "#2B2B2B", "legs": "#3A6EA8",
+      "tailStyle": "long", "tailLength": 0.9, "bodyTilt": -45,
+      "markings": [{ "kind": "bib", "color": "#FAFAFA" }, { "kind": "eyeRing", "color": "#3AA0D8" }]
+    }
+  },
+  {
+    "id": "resplendent-quetzal",
+    "name": "Resplendent Quetzal",
+    "scientific": "Pharomachrus mocinno",
+    "family": "Trogonidae",
+    "familyCommon": "Trogons & quetzals",
+    "order": "Trogoniformes",
+    "group": "tropical",
+    "tagline": "The sacred emerald of the cloud forest.",
+    "summary": "Shimmering green with a crimson breast and tail streamers longer than its body, the male quetzal was sacred to the Maya and Aztecs. It gulps wild avocados whole and spits out the pits, planting the very trees its cloud forest depends on.",
+    "status": "NT",
+    "regions": ["centralAmerica"],
+    "habitats": ["cloudForest", "rainforest", "mountains"],
+    "diet": ["fruit", "insects", "reptiles"],
+    "dietNote": "Wild avocados and other laurel fruits, plus insects, frogs and lizards.",
+    "migration": "altitudinal",
+    "migrationNote": "Moves up and down mountain slopes following fruiting trees.",
+    "lengthCm": [36, 40],
+    "weightG": [180, 225],
+    "lifespanYears": [10, 20],
+    "flightless": false,
+    "traits": { "flight": 5, "song": 6, "smarts": 4, "stealth": 6, "social": 3 },
+    "behaviors": [
+      { "icon": "🥑", "title": "Avocado swallower", "detail": "Swallows fruits whole and regurgitates the pits, spreading trees." },
+      { "icon": "✨", "title": "Living streamers", "detail": "The male's tail coverts can be up to 65 cm long." },
+      { "icon": "⛰️", "title": "Altitude migrant", "detail": "Follows the fruiting season up and down the mountains." },
+      { "icon": "🪵", "title": "Hollow nest", "detail": "Both parents dig a nest in a rotting trunk; the male's tail often pokes out." }
+    ],
+    "call": {
+      "description": "Soft, melancholy two-note whistles, repeated: 'kyow, kyow'.",
+      "mnemonic": "kyow · kyow · kee-oo",
+      "song": { "style": "whistle", "pitch": 1400, "range": 300, "notes": 2, "tempo": 1.2, "trill": 0, "harshness": 0.05, "phrases": 2 }
+    },
+    "nest": { "type": "cavity", "description": "A hole excavated in a rotting tree trunk or stump." },
+    "egg": { "shape": "elliptical", "pattern": "plain", "base": "#A8D4DE", "marking": "#A8D4DE", "lengthMm": 39, "widthMm": 30, "clutch": [1, 2], "incubationDays": [17, 19], "description": "Unmarked pale blue." },
+    "facts": [
+      "It is the national bird of Guatemala, whose currency is the quetzal.",
+      "Legend says its red breast was stained by the blood of the Maya hero Tecun Uman.",
+      "The Aztecs linked it to the feathered serpent god Quetzalcoatl."
+    ],
+    "appearance": {
+      "body": "#119A5F", "belly": "#D01C2C", "head": "#16A868", "wing": "#0F8A55", "wingTip": "#0A5C38", "tail": "#119A5F",
+      "beak": "#F2C94C", "beakShape": "tiny", "beakLength": 1.4, "legs": "#4A4A3A",
+      "crest": "pointed", "crestColor": "#16A868", "crestSize": 0.6,
+      "tailStyle": "streamers", "tailLength": 1.1, "bodyTilt": -40, "tailAngle": 18
+    }
+  },
+  {
+    "id": "common-kingfisher",
+    "name": "Common Kingfisher",
+    "scientific": "Alcedo atthis",
+    "family": "Alcedinidae",
+    "familyCommon": "Kingfishers",
+    "order": "Coraciiformes",
+    "group": "tropical",
+    "tagline": "A flash of electric blue along the riverbank.",
+    "summary": "Most people see a Common Kingfisher as a streak of blue zipping low over water. Perched, it is a jewel: azure back, orange breast and a dagger bill. It plunges after small fish, beats them against a branch and swallows them head-first — and its streamlined head inspired a bullet train.",
+    "status": "LC",
+    "regions": ["europe", "asia", "africa"],
+    "habitats": ["river", "wetland", "coast"],
+    "diet": ["fish", "insects", "crustaceans"],
+    "dietNote": "Minnows, sticklebacks and other small fish; aquatic insects and shrimp.",
+    "migration": "partial",
+    "migrationNote": "Moves away from freezing waters in winter; resident where water stays open.",
+    "lengthCm": [16, 17],
+    "wingspanCm": [24, 26],
+    "weightG": [34, 46],
+    "lifespanYears": [1, 7],
+    "speedKmh": 40,
+    "flightless": false,
+    "traits": { "flight": 7, "song": 3, "smarts": 5, "stealth": 6, "social": 1 },
+    "behaviors": [
+      { "icon": "🎯", "title": "Plunge fisher", "detail": "Dives from a perch; a clear eyelid protects its eyes underwater." },
+      { "icon": "🔨", "title": "Fish whacker", "detail": "Beats fish against a branch before swallowing them head-first." },
+      { "icon": "🕳️", "title": "Tunnel nest", "detail": "Digs a burrow up to 1 m long into a riverbank." },
+      { "icon": "💎", "title": "Structural blue", "detail": "The shimmering blue comes from light scattering inside feather structures." }
+    ],
+    "call": {
+      "description": "A sharp, high whistle 'chee' or 'tee-ee', usually given in flight.",
+      "mnemonic": "CHEE · chee-kee",
+      "song": { "style": "chirp", "pitch": 4500, "range": 300, "notes": 3, "tempo": 4, "trill": 0, "harshness": 0.1, "phrases": 2 }
+    },
+    "nest": { "type": "burrow", "description": "A tunnel in a steep earth bank ending in a chamber littered with fish bones." },
+    "egg": { "shape": "spherical", "pattern": "plain", "base": "#FCFBF8", "marking": "#FCFBF8", "lengthMm": 23, "widthMm": 19, "clutch": [5, 7], "incubationDays": [19, 21], "description": "Glossy white and almost perfectly round." },
+    "facts": [
+      "Japan's 500-series Shinkansen nose was modelled on its bill to reduce sonic booms.",
+      "It must eat around 60% of its body weight each day.",
+      "The 'halcyon days' of Greek myth were named after a kingfisher."
+    ],
+    "appearance": {
+      "body": "#1AA3C8", "belly": "#E8742A", "head": "#1688B5", "wing": "#147A9E", "wingTip": "#0E5B78", "tail": "#1AA3C8",
+      "beak": "#1B1B1B", "beakShape": "dagger", "beakLength": 1.15, "legs": "#E05555",
+      "headSize": 1.15, "tailLength": 0.7, "legLength": 0.2,
+      "wingPattern": "spots", "wingPatternColor": "#7FE0F5",
+      "markings": [{ "kind": "mask", "color": "#E8742A" }, { "kind": "cheek", "color": "#F6F0E6" }]
+    }
+  },
+  {
+    "id": "lilac-breasted-roller",
+    "name": "Lilac-breasted Roller",
+    "scientific": "Coracias caudatus",
+    "family": "Coraciidae",
+    "familyCommon": "Rollers",
+    "order": "Coraciiformes",
+    "group": "tropical",
+    "tagline": "A savanna rainbow that tumbles through the sky.",
+    "summary": "Perched on a thorn tree, the Lilac-breasted Roller shows lilac, turquoise, azure, olive and green; in flight it flashes deep blue. Males court with rocking, rolling dives, and the birds follow grass fires to snatch fleeing insects.",
+    "status": "LC",
+    "regions": ["africa"],
+    "habitats": ["savanna", "woodland"],
+    "diet": ["insects", "reptiles", "smallMammals"],
+    "dietNote": "Grasshoppers, beetles and scorpions, plus lizards and small rodents.",
+    "migration": "resident",
+    "migrationNote": "Mostly resident, with some local movements.",
+    "lengthCm": [28, 38],
+    "weightG": [87, 135],
+    "lifespanYears": [6, 10],
+    "flightless": false,
+    "traits": { "flight": 7, "song": 3, "smarts": 5, "stealth": 4, "social": 3 },
+    "behaviors": [
+      { "icon": "🎢", "title": "Rolling dive", "detail": "Courting males tumble and roll in steep dives while calling harshly." },
+      { "icon": "👁️", "title": "Perch hunter", "detail": "Scans from a high perch, then swoops onto prey." },
+      { "icon": "⚔️", "title": "Fearless", "detail": "Aggressively chases much larger birds from its nest." },
+      { "icon": "🔥", "title": "Fire follower", "detail": "Hunts insects fleeing from grass fires." }
+    ],
+    "call": {
+      "description": "Harsh, grating 'rak-kak' calls, loudest during display flights.",
+      "mnemonic": "RAK · RAK-KAK",
+      "song": { "style": "squawk", "pitch": 1600, "range": 0, "notes": 4, "tempo": 4, "trill": 0, "harshness": 0.85, "phrases": 1 }
+    },
+    "nest": { "type": "cavity", "description": "A natural tree hole, old woodpecker or barbet cavity, or termite mound." },
+    "egg": { "shape": "spherical", "pattern": "plain", "base": "#FBFAF6", "marking": "#FBFAF6", "lengthMm": 33, "widthMm": 27, "clutch": [2, 4], "incubationDays": [22, 24], "description": "Glossy white and rounded." },
+    "facts": [
+      "It is often described as Kenya's unofficial national bird.",
+      "Its outer tail feathers extend into long streamers.",
+      "It rarely lands on the ground except to grab prey."
+    ],
+    "appearance": {
+      "body": "#9C8A5A", "belly": "#4FB3D9", "head": "#A8D5A2", "wing": "#2F8AD0", "wingTip": "#1A3F8C", "tail": "#2F6FB0",
+      "beak": "#1C1C1C", "beakShape": "hooked", "beakLength": 0.8, "legs": "#C8C0A8",
+      "tailStyle": "streamers", "tailLength": 0.9, "bodyTilt": -35,
+      "markings": [{ "kind": "bib", "color": "#B57EDC" }, { "kind": "cheek", "color": "#C79BE6" }, { "kind": "stripe", "color": "#FFFFFF" }]
+    }
+  },
+  {
+    "id": "eurasian-hoopoe",
+    "name": "Eurasian Hoopoe",
+    "scientific": "Upupa epops",
+    "family": "Upupidae",
+    "familyCommon": "Hoopoes",
+    "order": "Bucerotiformes",
+    "group": "other",
+    "tagline": "A cinnamon jester with a pop-up crown.",
+    "summary": "Pinkish-cinnamon with zebra wings and a crest that fans open like a headdress, the hoopoe probes lawns and pastures with its long curved bill. Its soft 'oop-oop-oop' gave it its name, and its nests are famously smelly — a deliberate defence.",
+    "status": "LC",
+    "regions": ["europe", "africa", "asia"],
+    "habitats": ["grassland", "savanna", "woodland", "garden"],
+    "diet": ["insects", "invertebrates", "reptiles"],
+    "dietNote": "Beetle larvae, crickets, mole crickets and pupae dug from soil; occasionally small lizards.",
+    "migration": "partial",
+    "migrationNote": "European birds winter in sub-Saharan Africa; southern populations are resident.",
+    "lengthCm": [25, 32],
+    "wingspanCm": [44, 48],
+    "weightG": [46, 89],
+    "lifespanYears": [3, 10],
+    "flightless": false,
+    "traits": { "flight": 5, "song": 6, "smarts": 5, "stealth": 4, "social": 3 },
+    "behaviors": [
+      { "icon": "👑", "title": "Pop-up crown", "detail": "Raises its crest when excited or after landing." },
+      { "icon": "🦨", "title": "Stink defence", "detail": "Females and nestlings produce a foul-smelling preen-gland secretion." },
+      { "icon": "⛏️", "title": "Soil probe", "detail": "Probes the ground with its long bill for hidden larvae." },
+      { "icon": "🧪", "title": "Antibiotic eggs", "detail": "Females smear eggs with a bacteria-rich secretion that may protect them from infection." }
+    ],
+    "call": {
+      "description": "A soft, far-carrying 'oop-oop-oop', repeated endlessly in spring.",
+      "mnemonic": "oop-oop-oop",
+      "song": { "style": "hoot", "pitch": 650, "range": 0, "notes": 3, "tempo": 4, "trill": 0, "harshness": 0.05, "phrases": 3 }
+    },
+    "nest": { "type": "cavity", "description": "A tree hole, wall crevice or nest box — unlined, and soon very smelly." },
+    "egg": { "shape": "longElliptical", "pattern": "plain", "base": "#BFC8B8", "marking": "#BFC8B8", "lengthMm": 26, "widthMm": 18, "clutch": [4, 8], "incubationDays": [15, 18], "description": "Pale blue-grey to olive, soon stained in the dirty nest." },
+    "facts": [
+      "It was chosen as the national bird of Israel in 2008.",
+      "It leads the birds in the Persian poem 'The Conference of the Birds'.",
+      "Its name, in many languages, imitates its call."
+    ],
+    "appearance": {
+      "body": "#D29A6A", "belly": "#E2B48A", "head": "#D9A36F", "wing": "#1C1C1C", "wingTip": "#111111", "tail": "#1C1C1C",
+      "beak": "#3A3A3A", "beakShape": "decurved", "beakLength": 1.0, "legs": "#6A6A6A", "legLength": 0.4,
+      "crest": "fan", "crestColor": "#D9A36F", "crestTip": "#1C1C1C", "crestSize": 1.0,
+      "wingPattern": "stripes", "wingPatternColor": "#F4F0E6", "perch": "ground", "bodyTilt": -18
+    }
+  },
+  {
+    "id": "indian-peafowl",
+    "name": "Indian Peafowl",
+    "scientific": "Pavo cristatus",
+    "family": "Phasianidae",
+    "familyCommon": "Pheasants & partridges",
+    "order": "Galliformes",
+    "group": "gamebird",
+    "tagline": "A shimmering cathedral of eyes.",
+    "summary": "The peacock's 'tail' is really a train of around 200 elongated feathers, each tipped with an iridescent eyespot. Raised and rattled in display, it shimmers and hums. Native to India, where it is the national bird, it now struts through gardens and parks worldwide.",
+    "status": "LC",
+    "regions": ["asia"],
+    "habitats": ["forest", "woodland", "grassland", "garden"],
+    "diet": ["seeds", "insects", "plants", "reptiles"],
+    "dietNote": "Grain, berries and shoots, plus insects, small snakes and lizards.",
+    "migration": "resident",
+    "migrationNote": "Sedentary; roosts in the same tall trees nightly.",
+    "lengthCm": [100, 225],
+    "wingspanCm": [130, 160],
+    "weightG": [2750, 6000],
+    "lifespanYears": [15, 20],
+    "speedKmh": 16,
+    "flightless": false,
+    "traits": { "flight": 3, "song": 5, "smarts": 4, "stealth": 2, "social": 6 },
+    "behaviors": [
+      { "icon": "🦚", "title": "Train display", "detail": "Raises and shivers ~200 eyespotted feathers to impress females." },
+      { "icon": "🔊", "title": "Infrasonic shiver", "detail": "Rattling the train may produce infrasound other peafowl can sense." },
+      { "icon": "🐍", "title": "Snake eater", "detail": "Hunts small snakes and is welcomed in villages for it." },
+      { "icon": "🌧️", "title": "Monsoon caller", "detail": "Calls loudly before rain, linking it with the monsoon in folklore." }
+    ],
+    "call": {
+      "description": "A loud, wailing 'may-AWE', like a cat in distress.",
+      "mnemonic": "may-AWWW · may-AWWW",
+      "song": { "style": "scream", "pitch": 1100, "range": 400, "notes": 2, "tempo": 1.3, "trill": 0, "harshness": 0.4, "phrases": 2 }
+    },
+    "nest": { "type": "scrape", "description": "A shallow scrape lined with leaves, hidden in dense undergrowth." },
+    "egg": { "shape": "oval", "pattern": "plain", "base": "#E8D7B5", "marking": "#E8D7B5", "lengthMm": 70, "widthMm": 52, "clutch": [3, 6], "incubationDays": [28, 30], "description": "Buff to cream, unmarked." },
+    "facts": [
+      "It is the national bird of India.",
+      "The train is made of upper tail coverts, not tail feathers.",
+      "Its iridescence comes from microscopic crystal-like structures, not pigment."
+    ],
+    "appearance": {
+      "body": "#1A4FA0", "belly": "#1D58B0", "head": "#1F62C4", "wing": "#C9B48A", "wingTip": "#6D4C33", "tail": "#2F7D4E",
+      "beak": "#BBA98A", "legs": "#9A8A7A", "accent": "#1E8A6A", "accent2": "#D4A017",
+      "crest": "plumes", "crestColor": "#1F62C4", "tailStyle": "train", "tailLength": 1.0, "tailAngle": 6,
+      "legLength": 1.0, "perch": "ground", "bodyTilt": -20,
+      "wingPattern": "bars", "wingPatternColor": "#8D7350",
+      "markings": [{ "kind": "stripe", "color": "#FFFFFF" }]
+    }
+  },
+  {
+    "id": "pileated-woodpecker",
+    "name": "Pileated Woodpecker",
+    "scientific": "Dryocopus pileatus",
+    "family": "Picidae",
+    "familyCommon": "Woodpeckers",
+    "order": "Piciformes",
+    "group": "woodpecker",
+    "tagline": "The forest's crimson-crested carpenter.",
+    "summary": "Crow-sized and flame-crested, the Pileated Woodpecker hacks rectangular holes deep into trees in search of carpenter ants. Its drumming rolls through North American forests, and the cavities it leaves behind become homes for owls, ducks and bats.",
+    "status": "LC",
+    "regions": ["northAmerica"],
+    "habitats": ["forest"],
+    "diet": ["insects", "fruit", "nuts"],
+    "dietNote": "Carpenter ants and beetle larvae, plus wild fruits and nuts.",
+    "migration": "resident",
+    "migrationNote": "Pairs defend territories year-round.",
+    "lengthCm": [40, 49],
+    "wingspanCm": [66, 75],
+    "weightG": [250, 400],
+    "lifespanYears": [9, 13],
+    "speedKmh": 40,
+    "flightless": false,
+    "traits": { "flight": 5, "song": 5, "smarts": 5, "stealth": 4, "social": 3 },
+    "behaviors": [
+      { "icon": "🔨", "title": "Rectangular holes", "detail": "Excavates deep, oblong holes to reach ant galleries." },
+      { "icon": "🥁", "title": "Drum rolls", "detail": "Drums on resonant trunks to proclaim its territory." },
+      { "icon": "🏠", "title": "Forest landlord", "detail": "Its old cavities shelter owls, ducks, bats and martens." },
+      { "icon": "🧠", "title": "Shock absorbers", "detail": "Its skull and long, wrapped tongue bones cushion the hammering." }
+    ],
+    "call": {
+      "description": "A loud, wild 'cuk-cuk-cuk' and resonant, accelerating drum rolls.",
+      "mnemonic": "drrrrrrrrr · cuk-cuk-cuk-cuk",
+      "song": { "style": "drum", "pitch": 400, "range": 0, "notes": 18, "tempo": 15, "trill": 0, "harshness": 0.6, "phrases": 1 }
+    },
+    "nest": { "type": "cavity", "description": "A new cavity excavated each year, typically in a dead tree." },
+    "egg": { "shape": "oval", "pattern": "plain", "base": "#FBFAF6", "marking": "#FBFAF6", "lengthMm": 33, "widthMm": 25, "clutch": [3, 5], "incubationDays": [15, 18], "description": "Glossy white." },
+    "facts": [
+      "It may have inspired the cartoon character Woody Woodpecker.",
+      "It is the largest confirmed woodpecker in North America.",
+      "Its excavations can be so large that small trees break in half."
+    ],
+    "appearance": {
+      "body": "#1C1C1C", "belly": "#222222", "head": "#1C1C1C", "wing": "#1A1A1A", "wingTip": "#0E0E0E", "tail": "#1A1A1A",
+      "beak": "#3A3A3A", "beakShape": "dagger", "beakLength": 1.15, "legs": "#4A4A4A", "eye": "#F2EAD0",
+      "crest": "pointed", "crestColor": "#D7263D", "crestSize": 1.2, "tailStyle": "pointed", "tailLength": 0.9, "bodyTilt": -65,
+      "markings": [{ "kind": "stripe", "color": "#FFFFFF" }, { "kind": "cheek", "color": "#F7F7F7" }]
+    }
+  },
+  {
+    "id": "rock-pigeon",
+    "name": "Rock Pigeon",
+    "scientific": "Columba livia",
+    "family": "Columbidae",
+    "familyCommon": "Pigeons & doves",
+    "order": "Columbiformes",
+    "group": "other",
+    "tagline": "A city cliff-dweller with a perfect sense of home.",
+    "summary": "The pigeon of every city square descends from wild Rock Doves that nested on sea cliffs. Domesticated for thousands of years, it carried messages across battlefields, can find its way home over hundreds of kilometres, and has been trained to tell Monet from Picasso.",
+    "status": "LC",
+    "regions": ["northAmerica", "southAmerica", "europe", "africa", "asia", "oceania"],
+    "habitats": ["urban", "cliffs", "grassland"],
+    "diet": ["seeds", "plants", "fruit"],
+    "dietNote": "Seeds and grain, plus whatever city scraps are on offer.",
+    "migration": "resident",
+    "migrationNote": "Strictly resident — homing pigeons always come back.",
+    "lengthCm": [29, 37],
+    "wingspanCm": [62, 72],
+    "weightG": [238, 380],
+    "lifespanYears": [3, 15],
+    "speedKmh": 97,
+    "flightless": false,
+    "traits": { "flight": 7, "song": 4, "smarts": 7, "stealth": 2, "social": 9 },
+    "behaviors": [
+      { "icon": "🧭", "title": "Homing genius", "detail": "Navigates by sun, magnetic field, smells and possibly infrasound." },
+      { "icon": "🥛", "title": "Crop milk", "detail": "Both parents feed chicks a rich secretion from the crop." },
+      { "icon": "🖼️", "title": "Art critics", "detail": "Trained pigeons learned to tell Monet paintings from Picasso's." },
+      { "icon": "🎖️", "title": "War heroes", "detail": "The pigeon Cher Ami helped save nearly 200 soldiers in WWI." }
+    ],
+    "call": {
+      "description": "Soft, throaty coos and rolling 'oo-roo-coo' notes.",
+      "mnemonic": "oo-roo-COO · oo-roo-COO",
+      "song": { "style": "coo", "pitch": 500, "range": -80, "notes": 3, "tempo": 1.2, "trill": 6, "harshness": 0.05, "phrases": 2 }
+    },
+    "nest": { "type": "ledge", "description": "A flimsy platform of twigs on a ledge, beam or cliff, reused and soon crusted with droppings." },
+    "egg": { "shape": "elliptical", "pattern": "plain", "base": "#FBFAF7", "marking": "#FBFAF7", "lengthMm": 39, "widthMm": 29, "clutch": [2, 2], "incubationDays": [17, 19], "description": "Two glossy white eggs, almost always." },
+    "facts": [
+      "Pigeons were domesticated at least 5,000 years ago.",
+      "They can see ultraviolet light.",
+      "City ledges mimic the sea cliffs their ancestors nested on."
+    ],
+    "appearance": {
+      "body": "#8F96A3", "belly": "#A3A9B5", "head": "#6F7785", "wing": "#A9AFBA", "wingTip": "#4A4F58", "tail": "#7A808C",
+      "beak": "#3A3A3A", "beakShape": "conical", "beakLength": 0.7, "eye": "#E36B1F", "legs": "#D46A6A",
+      "plumpness": 1.15, "perch": "ground", "legLength": 0.5,
+      "wingPattern": "bars", "wingPatternColor": "#2A2A2A",
+      "markings": [{ "kind": "collar", "color": "#5E9C7A" }]
+    }
+  },
+  {
+    "id": "common-cuckoo",
+    "name": "Common Cuckoo",
+    "scientific": "Cuculus canorus",
+    "family": "Cuculidae",
+    "familyCommon": "Cuckoos",
+    "order": "Cuculiformes",
+    "group": "other",
+    "tagline": "The master forger of the egg world.",
+    "summary": "The cuckoo never builds a nest. Females slip a single egg into the nest of a reed warbler, pipit or dunnock — an egg forged to match the host's — and the cuckoo chick heaves the rightful eggs overboard. Its two-note call is so famous it became a clock.",
+    "status": "LC",
+    "regions": ["europe", "asia", "africa"],
+    "habitats": ["woodland", "grassland", "wetland"],
+    "diet": ["insects"],
+    "dietNote": "Specialises in hairy caterpillars that most birds avoid.",
+    "migration": "longDistance",
+    "migrationNote": "Winters in Africa; young cuckoos find the way alone, never having met their parents.",
+    "lengthCm": [32, 34],
+    "wingspanCm": [54, 60],
+    "weightG": [100, 130],
+    "lifespanYears": [4, 6],
+    "speedKmh": 60,
+    "flightless": false,
+    "traits": { "flight": 7, "song": 7, "smarts": 7, "stealth": 9, "social": 1 },
+    "behaviors": [
+      { "icon": "🥷", "title": "Brood parasite", "detail": "Lays eggs in other birds' nests and lets them raise the chick." },
+      { "icon": "🎭", "title": "Egg forgery", "detail": "Each female lineage lays eggs mimicking its usual host's." },
+      { "icon": "🐣", "title": "Eviction", "detail": "The newly hatched chick shoves host eggs out of the nest." },
+      { "icon": "🦅", "title": "Hawk disguise", "detail": "Its barred underparts resemble a sparrowhawk, alarming hosts." }
+    ],
+    "call": {
+      "description": "The male's unmistakable falling 'cuck-oo'; females give a bubbling trill.",
+      "mnemonic": "cuck-OO · cuck-OO",
+      "song": { "style": "cuckoo", "pitch": 750, "range": -150, "notes": 2, "tempo": 1.6, "trill": 0, "harshness": 0.02, "phrases": 3 }
+    },
+    "nest": { "type": "parasitic", "description": "None of its own — it uses the nests of more than 100 host species." },
+    "egg": { "shape": "oval", "pattern": "spotted", "base": "#B9C2A0", "marking": "#6B6A4A", "lengthMm": 22, "widthMm": 16, "clutch": [1, 1], "incubationDays": [11, 13], "description": "Small for the bird's size and colour-matched to the host — this one mimics a reed warbler's. A female may lay up to 20+ eggs per season, one per nest." },
+    "facts": [
+      "Its call names it in dozens of languages and inspired the cuckoo clock.",
+      "It can lay an egg in as little as 10 seconds.",
+      "Cuckoo eggs hatch fast, giving the chick a head start."
+    ],
+    "appearance": {
+      "body": "#7A8088", "belly": "#EEEDE8", "head": "#7A8088", "wing": "#6E747C", "wingTip": "#3F444B", "tail": "#4F555C",
+      "beak": "#2E2E2E", "beakTip": "#2E2E2E", "beakShape": "conical", "beakLength": 0.8, "eye": "#E8A62A", "legs": "#E8C040",
+      "tailStyle": "long", "tailLength": 1.2, "bodyTilt": -15, "legLength": 0.3,
+      "bellyPattern": "bars", "bellyPatternColor": "#3E4248", "wingPattern": "spots", "wingPatternColor": "#E8E8E2",
+      "markings": [{ "kind": "eyeRing", "color": "#F2C230" }]
+    }
+  },
+  {
+    "id": "great-tinamou",
+    "name": "Great Tinamou",
+    "scientific": "Tinamus major",
+    "family": "Tinamidae",
+    "familyCommon": "Tinamous",
+    "order": "Tinamiformes",
+    "group": "gamebird",
+    "tagline": "Haunting dusk whistles and eggs like polished turquoise.",
+    "summary": "A plump, secretive ground bird of the rainforest floor, closer kin to ostriches and emus than to chickens — but it can still fly. Its eggs are among the glossiest in the bird world, glowing turquoise like porcelain, and the male alone incubates them.",
+    "status": "NT",
+    "regions": ["centralAmerica", "southAmerica"],
+    "habitats": ["rainforest"],
+    "diet": ["fruit", "seeds", "insects"],
+    "dietNote": "Fallen fruits and seeds, plus insects and small frogs.",
+    "migration": "resident",
+    "migrationNote": "Sedentary within its forest home range.",
+    "lengthCm": [38, 46],
+    "weightG": [700, 1150],
+    "flightless": false,
+    "traits": { "flight": 2, "song": 8, "smarts": 4, "stealth": 9, "social": 2 },
+    "behaviors": [
+      { "icon": "💎", "title": "Porcelain eggs", "detail": "Its eggs have a nano-smooth cuticle — among the glossiest of any bird." },
+      { "icon": "👨‍🍼", "title": "Dad duty", "detail": "Males incubate and raise the chicks while females mate again." },
+      { "icon": "🍃", "title": "Ground ghost", "detail": "Walks silently, then bursts into explosive flight when startled." },
+      { "icon": "🦖", "title": "Ancient lineage", "detail": "Related to ratites like emus and ostriches, yet able to fly." }
+    ],
+    "call": {
+      "description": "Long, tremulous, descending whistles at dawn and dusk.",
+      "mnemonic": "hoooo-ee… hooo-ee…",
+      "song": { "style": "whistle", "pitch": 1100, "range": -200, "notes": 4, "tempo": 1.2, "trill": 6, "harshness": 0.02, "phrases": 1 }
+    },
+    "nest": { "type": "ground", "description": "No nest — eggs are laid among leaf litter at the base of a tree." },
+    "egg": { "shape": "spherical", "pattern": "plain", "base": "#2FA7B3", "marking": "#2FA7B3", "lengthMm": 57, "widthMm": 48, "clutch": [3, 5], "incubationDays": [16, 20], "description": "Glossy turquoise to blue-violet, shining like glazed porcelain." },
+    "facts": [
+      "Its eggs reflect light almost like a mirror.",
+      "Tinamous have relatively small hearts and lungs, so they tire quickly in flight.",
+      "Its dusk song is one of the signature sounds of Neotropical forests."
+    ],
+    "appearance": {
+      "body": "#7A6A3E", "belly": "#A8976A", "head": "#8E5A32", "wing": "#6E5F36", "wingTip": "#4A3F24", "tail": "#6E5F36",
+      "beak": "#5A5A5A", "beakShape": "dagger", "beakLength": 0.7, "legs": "#8C99A8", "legLength": 0.9,
+      "headSize": 0.75, "neckLength": 0.4, "plumpness": 1.25, "bodyTilt": 0, "perch": "ground",
+      "tailStyle": "short", "tailLength": 0.1,
+      "wingPattern": "scallop", "wingPatternColor": "#3A3020", "bellyPattern": "bars", "bellyPatternColor": "#6E5F36"
+    }
+  }
+]
