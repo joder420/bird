@@ -1,0 +1,72 @@
+name: Build iOS app
+
+on:
+  push:
+    branches: ["**"]
+  workflow_dispatch:
+
+concurrency:
+  group: ios-build-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    name: Compile & package Plumage
+    runs-on: macos-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Show toolchain
+        run: |
+          ls -d /Applications/Xcode*.app || true
+          xcodebuild -version
+          swift --version
+
+      - name: Validate species data
+        run: python3 Tools/validate_birds.py
+
+      - name: Build for iPhone (unsigned)
+        run: |
+          set +e
+          xcodebuild \
+            -project Plumage.xcodeproj \
+            -scheme Plumage \
+            -configuration Release \
+            -sdk iphoneos \
+            -destination 'generic/platform=iOS' \
+            -derivedDataPath build \
+            CODE_SIGNING_ALLOWED=NO CODE_SIGNING_REQUIRED=NO CODE_SIGN_IDENTITY="" \
+            build > build.log 2>&1
+          status=$?
+          echo "::group::Full build log (last 300 lines)"
+          tail -n 300 build.log
+          echo "::endgroup::"
+          echo "===== COMPILER ERRORS ====="
+          grep -E "error:" build.log | sort -u | head -n 300
+          echo "===== END ERRORS (xcodebuild exit $status) ====="
+          exit $status
+
+      - name: Package unsigned IPA
+        run: |
+          APP="build/Build/Products/Release-iphoneos/Plumage.app"
+          test -d "$APP"
+          rm -rf Payload && mkdir Payload
+          cp -R "$APP" Payload/
+          zip -qry Plumage-unsigned.ipa Payload
+          ls -lh Plumage-unsigned.ipa
+
+      - name: Upload IPA
+        uses: actions/upload-artifact@v4
+        with:
+          name: Plumage-unsigned-ipa
+          path: Plumage-unsigned.ipa
+          retention-days: 30
+
+      - name: Upload build log
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: build-log
+          path: build.log
+          if-no-files-found: ignore
