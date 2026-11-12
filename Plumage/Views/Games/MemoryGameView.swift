@@ -21,6 +21,7 @@ struct MemoryGameView: View {
     @State private var won = false
     @State private var burst = 0
     @State private var pairs = 6
+    @State private var gameID = UUID()
 
     private let ticker = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
 
@@ -86,6 +87,7 @@ struct MemoryGameView: View {
     }
 
     private func newGame() {
+        gameID = UUID()
         var rng = SystemRandomNumberGenerator()
         var chosen: [BirdSpecies] = []
         while chosen.count < pairs {
@@ -116,8 +118,10 @@ struct MemoryGameView: View {
         guard selection.count == 2 else { return }
         moves += 1
         let a = selection[0], b = selection[1]
+        let token = gameID
         if cards[a].species == cards[b].species && cards[a].face != cards[b].face {
             runAfter(0.35) {
+                guard token == gameID, a < cards.count, b < cards.count else { return }
                 withAnimation(.spring) {
                     cards[a].matched = true
                     cards[b].matched = true
@@ -130,6 +134,7 @@ struct MemoryGameView: View {
             }
         } else {
             runAfter(0.95) {
+                guard token == gameID, a < cards.count, b < cards.count else { return }
                 withAnimation(.spring(response: 0.45, dampingFraction: 0.75)) {
                     cards[a].revealed = false
                     cards[b].revealed = false

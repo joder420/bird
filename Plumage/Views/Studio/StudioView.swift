@@ -70,7 +70,13 @@ struct StudioView: View {
         .scrollIndicators(.hidden)
         .onAppear { loadFromRouter() }
         .onChange(of: router.studioSpeciesID) { _, _ in loadFromRouter() }
-        .onChange(of: look) { old, _ in recordHistory(old) }
+        .onChange(of: look) { old, _ in
+            if isUndoing {
+                isUndoing = false
+            } else {
+                recordHistory(old)
+            }
+        }
         .sheet(isPresented: $showFrame) {
             StudioFrameSheet(name: base.name, appearance: look, baseSpeciesID: base.id)
                 .environmentObject(game)
@@ -92,14 +98,15 @@ struct StudioView: View {
 
     private func select(_ species: BirdSpecies) {
         base = species
-        isUndoing = true
-        look = game.appearance(for: species)
+        let newLook = game.appearance(for: species)
+        if newLook != look {
+            isUndoing = true
+            look = newLook
+        }
         history.removeAll()
-        runAfter(0) { isUndoing = false }
     }
 
     private func recordHistory(_ old: BirdAppearance) {
-        guard !isUndoing else { return }
         if Date().timeIntervalSince(lastHistoryPush) > 0.6 {
             history.append(old)
             if history.count > 40 { history.removeFirst() }
@@ -109,10 +116,9 @@ struct StudioView: View {
 
     private func undo() {
         guard let previous = history.popLast() else { return }
-        isUndoing = true
+        if previous != look { isUndoing = true }
         withAnimation(.spring) { look = previous }
         Haptics.shared.tap()
-        runAfter(0) { isUndoing = false }
     }
 
     // MARK: Preview

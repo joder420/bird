@@ -516,7 +516,6 @@ struct SongSection: View {
                         sound.stopSong()
                     } else {
                         duration = sound.playSong(species)
-                        startedAt = Date()
                         game.recordSongPlayed(species)
                     }
                 } label: {
@@ -563,6 +562,10 @@ struct SongSection: View {
                 InfoTile(emoji: "⏱️", label: "Tempo", value: String(format: "%.1f /s", species.call.song.tempo))
             }
             .parchmentCard(padding: 10)
+        }
+        .onChange(of: isSinging) { _, singing in
+            startedAt = singing ? Date() : nil
+            if singing { duration = BirdSynth.duration(species.call.song, seed: species.seed) }
         }
     }
 

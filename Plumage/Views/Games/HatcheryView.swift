@@ -7,6 +7,7 @@ struct HatcheryView: View {
     enum Stage: Equatable { case choose, incubate, hatching, revealed }
 
     @EnvironmentObject private var game: GameState
+    @ObservedObject private var sound = SoundEngine.shared
 
     @State private var stage: Stage = .choose
     @State private var nests: [BirdSpecies] = []
@@ -83,7 +84,7 @@ struct HatcheryView: View {
                                 NestShape()
                                     .fill(LinearGradient(colors: [Color(hex: 0x8A6A44), Color(hex: 0x5B4332)], startPoint: .top, endPoint: .bottom))
                                     .frame(height: 40)
-                                EggArt(egg: species.egg, seed: species.seed &+ UInt64(i))
+                                EggArt(egg: species.egg, seed: species.seed)
                                     .frame(height: 80)
                                     .padding(.bottom, 18)
                             }
@@ -298,7 +299,7 @@ struct HatcheryView: View {
                     RoundedRectangle(cornerRadius: 26, style: .continuous)
                         .fill(RadialGradient(colors: [hatchling.rarity.color.opacity(0.45), Palette.parchment],
                                              center: .center, startRadius: 10, endRadius: 220))
-                    BirdView(appearance: hatchling.appearance, singing: SoundEngine.shared.singingSpeciesID == species.id, padding: 20)
+                    BirdView(appearance: hatchling.appearance, singing: sound.singingSpeciesID == species.id, padding: 20)
                 }
                 .frame(height: 280)
                 .overlay(alignment: .topTrailing) {
@@ -463,6 +464,7 @@ struct HatchlingCard: View {
 struct HatchlingDetail: View {
     var hatchling: Hatchling
     @EnvironmentObject private var game: GameState
+    @ObservedObject private var sound = SoundEngine.shared
     @Environment(\.dismiss) private var dismiss
     @State private var name = ""
     @State private var confirmRelease = false
@@ -470,7 +472,7 @@ struct HatchlingDetail: View {
     var body: some View {
         let species = BirdDatabase.shared.species(hatchling.speciesID)
         VStack(spacing: 12) {
-            BirdView(appearance: hatchling.appearance, singing: SoundEngine.shared.singingSpeciesID == hatchling.speciesID, padding: 10)
+            BirdView(appearance: hatchling.appearance, singing: sound.singingSpeciesID == hatchling.speciesID, padding: 10)
                 .frame(height: 200)
                 .onTapGesture {
                     if let species { SoundEngine.shared.playSong(species) }

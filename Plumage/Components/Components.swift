@@ -376,24 +376,29 @@ struct FeatherBurst: View {
     var duration = 2.6
 
     @State private var start = Date()
+    @State private var finished = false
 
     var body: some View {
-        TimelineView(.animation) { timeline in
-            let elapsed = timeline.date.timeIntervalSince(start)
+        TimelineView(.animation(minimumInterval: nil, paused: finished)) { timeline in
+            let elapsed: Double = timeline.date.timeIntervalSince(start)
             Canvas { context, size in
                 guard elapsed < duration else { return }
-                let cx = size.width / 2, cy = size.height * 0.45
+                let cx: CGFloat = size.width / 2
+                let cy: CGFloat = size.height * 0.45
+                let drag: Double = 2.4
+                let travel: Double = (1 - exp(-drag * elapsed)) / drag
+                let fall: Double = 120 * elapsed * elapsed
+                let alpha: Double = max(0, 1 - elapsed / duration)
                 for i in 0..<count {
-                    let a = NaturePainter.hash01(i, 31) * 2 * .pi
-                    let speed = 180 + NaturePainter.hash01(i, 32) * 260
-                    let drag = 2.4
-                    let travel = (1 - exp(-drag * elapsed)) / drag
-                    let x = cx + CGFloat(cos(a) * speed * travel + 18 * sin(elapsed * 5 + Double(i)))
-                    let y = cy + CGFloat(sin(a) * speed * travel - 160 * travel + 120 * elapsed * elapsed)
-                    let alpha = max(0, 1 - elapsed / duration)
+                    let a: Double = NaturePainter.hash01(i, 31) * 2 * Double.pi
+                    let speed: Double = 180 + NaturePainter.hash01(i, 32) * 260
+                    let wobble: Double = 18 * sin(elapsed * 5 + Double(i))
+                    let dx: Double = cos(a) * speed * travel + wobble
+                    let dy: Double = sin(a) * speed * travel - 160 * travel + fall
+                    let spin: Double = elapsed * (2 + NaturePainter.hash01(i, 33) * 4) + Double(i)
                     var f = context
-                    f.translateBy(x: x, y: y)
-                    f.rotate(by: .radians(elapsed * (2 + NaturePainter.hash01(i, 33) * 4) + Double(i)))
+                    f.translateBy(x: cx + CGFloat(dx), y: cy + CGFloat(dy))
+                    f.rotate(by: .radians(spin))
                     f.opacity = alpha
                     let color = colors[i % colors.count]
                     f.fill(Path(ellipseIn: CGRect(x: -9, y: -3, width: 18, height: 6)), with: .color(color))
@@ -404,6 +409,7 @@ struct FeatherBurst: View {
                 }
             }
         }
+        .onAppear { runAfter(duration) { finished = true } }
         .allowsHitTesting(false)
         .accessibilityHidden(true)
     }

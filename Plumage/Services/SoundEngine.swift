@@ -138,7 +138,11 @@ final class SoundEngine: ObservableObject {
     /// Call when the app returns to the foreground.
     func resume() {
         guard isConfigured else { return }
-        restart()
+        if engine.isRunning {
+            apply(settings: settings)
+        } else {
+            restart()
+        }
     }
 
     // MARK: - Ambient soundscape
