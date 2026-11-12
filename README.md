@@ -114,16 +114,46 @@ not an app screenshot.*
 
 ---
 
-## Getting started
+## Install on your iPhone (with a Mac)
 
-**Requirements:** Xcode 16 or newer, with iOS 17 or later on a device or the Simulator.
+You need a Mac with **Xcode 16 or newer** (free from the Mac App Store), your iPhone on **iOS 17 or later**,
+a USB cable, and an Apple ID. A free Apple ID is enough; no paid developer account is needed.
+
+1. **Get the code.** On the repository page, choose **Code → Download ZIP** and unzip it, or run
+   `git clone https://github.com/joder420/bird.git`.
+2. **Open the project.** Double-click `Plumage.xcodeproj`.
+3. **Sign in to Xcode.** Open **Xcode → Settings → Accounts**, click **+**, and add your Apple ID.
+4. **Set up signing.**
+   1. In the left sidebar, click the blue **Plumage** project, then the **Plumage** target.
+   2. Open the **Signing & Capabilities** tab and tick **Automatically manage signing**.
+   3. Under **Team**, choose *Your Name (Personal Team)*.
+   4. If Xcode says the bundle identifier isn't available, change it to something unique,
+      e.g. `com.yourname.plumage`.
+5. **Connect your iPhone.** Plug it in, unlock it, and tap **Trust** when it asks.
+6. **Turn on Developer Mode on the iPhone.** Go to **Settings → Privacy & Security → Developer Mode**,
+   switch it on, and restart. Confirm when it asks after restarting. The option appears once the
+   phone has been connected to Xcode.
+7. **Run the app.** In Xcode's toolbar, pick your iPhone as the run destination and press **▶ Run** (⌘R).
+   The first time, Xcode spends a few minutes preparing the device.
+8. **Trust yourself as a developer, the first time only.** If the iPhone says *Untrusted Developer*,
+   go to **Settings → General → VPN & Device Management**, tap your Apple ID, and tap **Trust**.
+   Then open Plumage from the home screen.
+
+With a free Apple ID, the app keeps working for **7 days**. After that, plug in and press Run again to
+renew it. With a paid Apple Developer account it lasts a year.
+
+**No Xcode?** Every push to this repository builds the app on GitHub Actions and uploads
+`Plumage-unsigned.ipa` as an artifact. Open the latest run under the repo's **Actions** tab and download
+**Plumage-unsigned-ipa**. Then use [Sideloadly](https://sideloadly.io) on your Mac or PC to sign it with your
+Apple ID and install it over USB. Developer Mode and the trust step above still apply.
+
+## Getting started (Simulator)
+
+**Requirements:** Xcode 16 or newer.
 
 1. Open `Plumage.xcodeproj` in Xcode.
 2. Select the **Plumage** scheme and an iPhone simulator.
 3. Press **Run** (⌘R).
-
-To run on a physical device, set your Team under *Signing & Capabilities*. You may also need a unique
-bundle identifier.
 
 The project uses Xcode 16 *synchronized folders*, so any file you add under `Plumage/` is picked up
 automatically. If you prefer XcodeGen, a `project.yml` is included: `brew install xcodegen && xcodegen`.
