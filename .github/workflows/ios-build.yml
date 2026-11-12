@@ -11,8 +11,13 @@ concurrency:
 
 jobs:
   build:
-    name: Compile & package Plumage
-    runs-on: macos-latest
+    name: Compile & package Plumage (${{ matrix.runner }})
+    # Apple-silicon runners are sometimes capacity-constrained; the Intel runner builds the same arm64 iPhone app.
+    strategy:
+      fail-fast: false
+      matrix:
+        runner: [macos-latest, macos-15-intel]
+    runs-on: ${{ matrix.runner }}
     timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
@@ -59,7 +64,7 @@ jobs:
       - name: Upload IPA
         uses: actions/upload-artifact@v4
         with:
-          name: Plumage-unsigned-ipa
+          name: Plumage-unsigned-ipa-${{ matrix.runner }}
           path: Plumage-unsigned.ipa
           retention-days: 30
 
@@ -67,6 +72,6 @@ jobs:
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: build-log
+          name: build-log-${{ matrix.runner }}
           path: build.log
           if-no-files-found: ignore
